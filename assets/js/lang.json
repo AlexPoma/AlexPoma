@@ -1,0 +1,42 @@
+{
+    "es" : {
+        "Name" : "Alex Poma",
+
+        "__ Comment 1 __" : "Start Header",
+        "Biografia" : "Hola, mi nombre es Alex Poma y soy Ingeniero de Datos. Bienvenido a mi pagina personal!",
+        "About" : "Sobre Mi",
+        "Job" : "Experiencia Laboral",
+        "Study" : "Cursos",
+        "Resume" : "Currículum",
+        "Blog" : "Blog",
+        "Contact" : "Contacto",
+        "More" : "Más",
+        "__ Comment 2 __": "End Header",
+
+        "__ Comment 3 __" : "Start About Me Section",
+        "Career" : "Ingeniero de Datos",
+        "AboutMe" : "Apasionado por la Inteligencia de Negocios, Análisis de Datos, Aprendizaje Automático, e Inteligencia Artificial, altamente responsable, creativo, con iniciativa y puntualidad, asumo con responsabilidad los retos y metas que la organización me plantee; adaptabilidad al cambio, facilidad para trabajar en equipo, en condiciones bajo presión, así como para resolver problemas eficientemente y lograr las metas de productividad trazadas por la empresa y mi grupo de trabajo.",
+        "ViewResume" : "Ver Currículum",
+        "__ Comment 4 __" : "Start About Me Section"
+    },
+    "en" : {
+        "Name" : "Alex Poma",
+
+        "__ Comment 1 __": "Start Header",
+        "Biografia" : "Hi, my name is Alex Poma and I'm a Data Engineer. Welcome to my personal website!",
+        "About" : "About Me",
+        "Job" : "Work Experience",
+        "Study" : "Curses",
+        "Resume" : "Resume",
+        "Blog" : "Blog",
+        "Contact" : "Contact",
+        "More" : "More",
+        "__ Comment 2 __": "End Header",
+
+        "__ Comment 3 __" : "Start About Me Section",
+        "Career" : "Data Engineer",
+        "AboutMe" : "Passionate about Business Intelligence, Cloud Computing, Machine Learning, and Artificial Intelligence, highly responsible, creative, with initiative and punctuality, I assume with responsibility the challenges and goals that the organization sets for me; adaptability to change, ease of working as a team, in conditions under pressure, so to solve problems efficiently and achieve the productivity goals set by the company and my work group.",
+        "ViewResume" : "View Resume",
+        "__ Comment 4 __" : "Start About Me Section"
+    }
+}
