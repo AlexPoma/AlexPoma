@@ -21,11 +21,13 @@
 
 	<!-- Font-Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
 	<!-- Theme CSS -->
 	<link id="theme-style" rel="stylesheet" href="assets/css/style.css">
 	<link id="theme-style" rel="stylesheet" href="assets/css/style_dark.css">
 	<link id="theme-style" rel="stylesheet" href="assets/css/style_layout.css">
+	<!-- <link id="theme-style" rel="stylesheet" href="assets/css/shadow.css"> -->
 
 	<!-- JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -35,6 +37,10 @@
 	<script src="assets/js/dark-mode.js" charset="utf-8"></script>
 	<script src="assets/js/preload.js" charset="utf-8"></script>
 	<script src="assets/js/nav-bar.js" charset="utf-8"></script>
+	<script src="assets/js/isotope.js" charset="utf-8"></script>
+
+	<script src="assets/js/imagesloaded.pkgd.min.js" charset="utf-8"></script>
+	<script src="assets/js/isotope.pkgd.min.js" charset="utf-8"></script>
 
 </head>
 <body class="dark-mode preload">
@@ -50,11 +56,11 @@
 			<!-- {-sm|-md|-lg|-xl|-xxl} xl => 1200-->
 			<!-- <nav class="navbar navbar-expand-lg navbar-dark"> -->
 			<nav class="navbar navbar-expand-lg navbar-dark collapse_navbarBackground">
-
 				<button class="navButton navbar-toggler fixed-top" type="button" id="id_nav_bar" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 					<!-- <span class="navbar-toggler-icon"></span> -->
 					<span><i class="fas fa-bars"></i></span>
 				</button>
+
 
 				<!-- <div id="navigation" class="collapse navbar-collapse flex-column"> -->
 				<div id="navigation" class="navbar-collapse flex-column collapse_nav">
@@ -169,6 +175,70 @@
 			</div>
 		</section><!--//End About-me-section-->
 
+		<section class="projects-list px-3 py-5 p-md-5">
+		    <div class="container">
+			    <div class="text-center">
+				    <ul id="filters" class="filters mb-1 mx-auto pl-0">
+		                <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".webapp">We App</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".mobileapp">Mobile App</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".frontend">Frontend</li>
+		                <li class="type  mb-3 mb-lg-0" data-filter=".backend">Backend</li>
+		            </ul><!--//filters-->
+			    </div>
+
+				<div class="project-cards row isotope">
+					<!-- <div class="isotope-item col-md-6 mb-5 mobileapp frontend"> -->
+						<!-- <div class="card project-card"> -->
+							<!-- <div class="row no-gutters"> -->
+								<!-- <div class="col-lg-4 card-img-holder"> -->
+								<div class="isotope-item col-2 card-img-holder mobileapp">
+									<img src="assets/images/SofwareSkills/Anaconda.png" class="card-img" alt="image">
+								</div>
+							<!-- </div> -->
+						<!-- </div> -->
+						<!-- //card -->
+					<!-- </div> -->
+					<!-- //col -->
+					<div class="isotope-item col-2 card-img-holder webapp">
+						<img src="assets/images/SofwareSkills/Apache_Hive.png" class="card-img" alt="image">
+					</div>
+
+					<div class="isotope-item col-2 card-img-holder frontend mobileapp">
+						<img src="assets/images/SofwareSkills/AWS.png" class="card-img" alt="image">
+					</div>
+
+					<div class="isotope-item col-2 card-img-holder webapp">
+						<img src="assets/images/SofwareSkills/Azure.png" class="card-img" alt="image">
+					</div>
+
+					<div class="isotope-item col-2 card-img-holder backend mobileapp">
+						<img src="assets/images/SofwareSkills/Git.png" class="card-img" alt="image">
+					</div>
+
+					<div class="isotope-item col-2 card-img-holder frontend mobileapp">
+						<img src="assets/images/SofwareSkills/Hadoop.png" class="card-img" alt="image">
+					</div>
+
+					<div class="isotope-item col-2 card-img-holder backend mobileapp">
+						<img src="assets/images/SofwareSkills/Jupyter.png" class="card-img" alt="image">
+					</div>
+
+					<div class="isotope-item col-2 card-img-holder mobileapp">
+						<img src="assets/images/SofwareSkills/MongoDB.png" class="card-img" alt="image">
+					</div>
+
+					<div class="isotope-item col-2 card-img-holder frontend">
+						<img src="assets/images/SofwareSkills/Msqlserver.png" class="card-img" alt="image">
+					</div>
+				</div>
+				
+
+
+
+			</div>
+		</section>
+
 
 
 		<section class="overview-section p-3 p-lg-5">
@@ -176,6 +246,32 @@
 				<h2 class="section-title font-weight-bold mb-3">What I do</h2>
 				<div class="section-intro mb-5">I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a href="resume.html">online resume</a> and <a href="portfolio.html">project portfolio</a>.</div>
 				<div class="row">
+
+					<div>
+						
+					</div>
+
+					<!-- col-6 -->
+					<div class="item col-lg-8 elementor shadow-dreamy">
+						<h3 class="item-title">Main Skills</h3>
+						<ul class="main_skills">
+							<!-- <li></li> -->
+							<li></i>Creación de Cubos multidimendionales OLAP con SSSA.</li>
+							<li><p><span>Experiencia en la generación de procesos ETL en SSIS.</span>Text</p></li>
+							<li><p><span>Conocimiento implementando proyectos de Data Warehouse.</span>Text</p></li>
+							<li><p><span>Desarrollo de una Tesis de Sentiment Analytics usando Text Mining.</span>Text</p></li>
+							<li><p><span>Experiencia en el desarrollo de proyectos usando R y Python.</span>Text</p></li>
+							<li><p><span>Conocimiento de distintos algoritmos de Machine Learning.</span>Text</p></li>
+							<li><p><span>Experiencia desarrollando y optimizando scripts SQL.</span>Text</p></li>
+							<li><p><span>Entusiasta por el Big Data y Cloud Computing con AWS, Azure y Google Cloud technology</span>Text</p></li>
+						</ul>
+					</div>
+
+					<div class="item col-lg-4 elementor shadow-dreamy">
+						<h3 class="item-title">Main Skills</h3>
+						
+					</div>
+
 				</div><!--//row-->
 				<div class="text-center py-3"><a href="services.html" class="btn btn-primary"><i class="fas fa-arrow-alt-circle-right mr-2"></i>Services &amp; Pricing
 
