@@ -435,7 +435,7 @@ ul.main_skills {
     margin-right: 2rem;
     color: var(--font-header-color-rgva);
     font-weight: bold;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 .filters .type:last-child {
@@ -468,9 +468,6 @@ ul.main_skills {
     border: 1px solid rgba(0, 0, 0, 0.025);
     position: relative;
     height: 100%;
-    
-    
-    /* padding: 0px 200px 0px 200px; */
 }
 
 .project-cards .card-img-holder {
@@ -489,5 +486,5 @@ ul.main_skills {
   justify-content: center; */
 }
 
-.project-card .card-img {
-}
+/* .project-card .card-img {
+} */

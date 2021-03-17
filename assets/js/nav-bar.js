@@ -15,6 +15,5 @@ document.addEventListener("DOMContentLoaded", () => {
         if (window.innerWidth >= 992){
             $homeIcon.removeClass("nav--open");
         }
-    });
-    
+    });    
 });
