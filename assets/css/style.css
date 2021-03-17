@@ -478,7 +478,7 @@ ul.main_skills {
     /* justify-content: center; */
     /* border: 5px solid red;   */
     /* text-align: center; */
-    align-self: center;
+    align-self: center !important;
     
     /* border: 1px solid red;
   width:100%;

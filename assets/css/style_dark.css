@@ -137,6 +137,14 @@ body.dark-mode .header .navbar-dark .navbar-toggler {
     color: var(--header-background-color);
     background-color: #111821;
 } 
+
+body.dark-mode .project-cards .card-img-holder img {
+    /* -webkit-filter: drop-shadow(0px 0px 0 var(--font-header-color-hex))
+                    drop-shadow(-0px -0px 0 var(--font-header-color-hex)); */
+    filter: drop-shadow(0px 0px 0 #fff) 
+            /* drop-shadow(-0px -0px 0 var(--font-header-color-hex)); */
+}
+
 /*
 body.dark-mode .social-list a .svg-inline--fa {
     color: #fff

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-
+    
     const nav = document.querySelector(".collapse_navbarBackground");
 
     document.querySelector("#id_nav_bar").addEventListener("click", () => {
@@ -15,5 +15,5 @@ document.addEventListener("DOMContentLoaded", () => {
         if (window.innerWidth >= 992){
             $homeIcon.removeClass("nav--open");
         }
-    });    
+    });
 });
