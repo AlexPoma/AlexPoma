@@ -153,6 +153,22 @@ body.dark-mode .project-cards .card-img-holder .Ligth {
     display: none;
 }
 
+body.dark-mode .filters .type {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+body.dark-mode .filters .type.active {
+    border-top: 2px solid var(--special-dark-colour-osc);
+    color: var(--special-dark-colour-osc);
+}
+
+body.dark-mode .filters .type.active:hover {
+    border-top: 2px solid var(--special-dark-colour-osc)
+}
+
+body.dark-mode .filters .type:hover {
+    color: var(--special-dark-colour-osc)
+}
 /*
 body.dark-mode .social-list a .svg-inline--fa {
     color: #fff

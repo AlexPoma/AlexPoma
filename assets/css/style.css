@@ -456,14 +456,6 @@ ul.main_skills {
     color: var(--font-header-color-hex)
 }
 
-.project-card {
-    border-radius: 0;
-    background: #fafafa;
-    border: 1px solid rgba(0, 0, 0, 0.025);
-    position: absolute;
-    height: 100%;
-}
-
 .project-cards .card-img-holder {
     max-height: 200px;
     overflow: hidden;
@@ -473,3 +465,18 @@ ul.main_skills {
 .project-cards .card-img-holder .Dark {
     display: none;
 }
+
+/* Start 8 Rows */
+.col-try-8{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media (min-width: 1200px) {
+    .col-sm-2 {
+        flex: 0 0 12.5%;
+        max-width: 12.5%
+}
+/* End 8 Rows */
