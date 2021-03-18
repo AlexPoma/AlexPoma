@@ -145,6 +145,14 @@ body.dark-mode .project-cards .card-img-holder img {
             /* drop-shadow(-0px -0px 0 var(--font-header-color-hex)); */
 }
 
+body.dark-mode .project-cards .card-img-holder .Dark {
+    display: inline;
+}
+
+body.dark-mode .project-cards .card-img-holder .Ligth {
+    display: none;
+}
+
 /*
 body.dark-mode .social-list a .svg-inline--fa {
     color: #fff
