@@ -169,6 +169,34 @@ body.dark-mode .filters .type.active:hover {
 body.dark-mode .filters .type:hover {
     color: var(--special-dark-colour-osc)
 }
+
+body.dark-mode .section-title:before {
+    background: var(--special-dark-colour-osc);
+}
+
+/****************************************************/
+
+body.dark-mode .coding-carousel-container .tns-nav button {
+    background: rgba(255, 255, 255, 0.4)
+}
+
+body.dark-mode .coding-carousel-container .tns-nav button.tns-nav-active/*, body.dark-mode .coding-carousel-container .tns-nav button:hover*/{
+    background: var(--special-dark-colour-osc);/*rgba(255, 255, 255, 0.95);*/
+}
+
+body.dark-mode .coding-carousel .item-inner {
+    background: #151e29
+}
+
+body.dark-mode .coding-carousel-container .source-profile .Dark {
+    display: inline;
+}
+
+body.dark-mode .coding-carousel-container .source-profile .Ligth {
+    display: none;
+}
+
+
 /*
 body.dark-mode .social-list a .svg-inline--fa {
     color: #fff
@@ -181,3 +209,4 @@ body.dark-mode .main-wrapper {
 
 
 /*End Dark Mode*/
+
