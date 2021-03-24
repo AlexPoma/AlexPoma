@@ -12,7 +12,7 @@
       // filter items on click
       $('#filters').on( 'click', '.type', function() {
           var filterValue = $(this).attr('data-filter');
-          console.log($('.filterValue'));
+        //   console.log($('.filterValue'));
           $container.isotope({ filter: filterValue });
       });
       // change is-checked class on buttons

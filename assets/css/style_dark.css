@@ -196,6 +196,13 @@ body.dark-mode .coding-carousel-container .source-profile .Ligth {
     display: none;
 }
 
+body.dark-mode .circle-big .bg {
+    stroke: var(--hr-color);
+  }
+
+  body.dark-mode .circle-big .progress {
+    stroke: #9a0fe0;/*var(--special-dark-colour-osc);*/
+  }
 
 /*
 body.dark-mode .social-list a .svg-inline--fa {

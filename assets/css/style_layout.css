@@ -196,4 +196,8 @@
     }
 }
 
-
+@media (max-width: 575px) {
+    .eng .circle-big, .br .circle-big {
+        margin: 65px auto 0px auto;
+      }
+}
