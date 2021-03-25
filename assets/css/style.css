@@ -85,7 +85,7 @@ hr {
 
 .header .collapse_nav{
     overflow-y: auto;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 }
 
 .header .collapse_nav::-webkit-scrollbar {
