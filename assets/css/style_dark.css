@@ -217,3 +217,22 @@ body.dark-mode .main-wrapper {
 
 /*End Dark Mode*/
 
+body.dark-mode .testiomonial-carousel-container .tns-nav button {
+    background: rgba(255, 255, 255, 0.4)
+}
+
+body.dark-mode .testiomonial-carousel-container .tns-nav button.tns-nav-active {
+    background: var(--special-dark-colour-osc);
+}
+
+body.dark-mode .testimonial-carousel .item-inner {
+    background: #151e29
+}
+
+body.dark-mode .testimonial-carousel .source-holder .socials a {
+    color: #8f8f8f;
+}
+
+body.dark-mode .testimonial-carousel .source-holder .socials a:hover {
+    color: var(--section-color-light);
+}
