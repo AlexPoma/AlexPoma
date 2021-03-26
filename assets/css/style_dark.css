@@ -236,3 +236,8 @@ body.dark-mode .testimonial-carousel .source-holder .socials a {
 body.dark-mode .testimonial-carousel .source-holder .socials a:hover {
     color: var(--section-color-light);
 }
+
+body.dark-mode .footer-basic .social > a:hover {
+    /* opacity:0.9; */
+    color: var(--header-background-color);
+  }

@@ -638,7 +638,10 @@ ul.main_skills {
   .circle-big svg {
     width: 148px;
     height: 148px;
+
   }
+
+  /* svg.banner { width: 100%; height: auto; } */
 
   .circle-big .bg {
     fill: none;
@@ -669,7 +672,7 @@ ul.main_skills {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  .circle-big .text_desc{
+  .language-section .text_desc{
     text-align: center;
     /* margin: 0px 0px 0px 0px; */
     font-size: 24px;
@@ -799,3 +802,58 @@ ul.main_skills {
 .testimonial-carousel .source-holder .socials a:hover {
     color: var(--font-header-color-rgv);
 }
+
+/************/
+
+.footer-basic {
+    /* padding:40px 0; */
+    /* background-color:#ffffff; */
+    /* color:#4b4c4d; */
+    color: #8f8f8f;
+  }
+
+  .footer-basic .social {
+    padding-bottom: 20px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:18px;
+    width:35px;
+    height:35px;
+    line-height:34px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #8f8f8f;
+    margin:0 8px;
+    color: #8f8f8f;
+    transition: .5s;
+    /* color:inherit; */
+    /* opacity:0.75; */
+  }
+  
+  .footer-basic .social > a:hover {
+    /* opacity:0.9; */
+    color: var(--font-header-color-rgv);
+  }
+  
+  /* .footer-basic .text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } */
+
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#8f8f8f;
+    margin-bottom:0;
+  }
+
+  .footer-basic .copyright a {
+    color:#8f8f8f;
+  }
+
+  .footer-basic img {
+    width: 25px;
+    border-radius: 50%;
+  }
