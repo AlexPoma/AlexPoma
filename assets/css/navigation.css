@@ -42,7 +42,7 @@
 }
 
 #job:target .aboutme_page, #resume:target .aboutme_page, #blog:target .aboutme_page, #contact:target .aboutme_page {
-    overflow:auto;
+    overflow-y: hidden;
     max-height: 100vh;
     transform: translateX(100%);
 }
