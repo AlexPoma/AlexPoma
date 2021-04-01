@@ -14,6 +14,7 @@
     left: 0;
     right: 0;
     border: 1px solid red;
+    position: fixed;
 }
 
 /*
@@ -33,16 +34,19 @@
 
 #page_job, #page_resume, #page_blog, #page_contact {
     transform: translateX(100%);
+    /* position: fixed; */
+    /* width: ; */
 }
 
 
 #job:target #page_job, #resume:target #page_resume, #blog:target #page_blog, #contact:target #page_contact {
     transform: translateX(0%);
+    
     /* transition-delay: 0.4s; */
 }
 
 #job:target .aboutme_page, #resume:target .aboutme_page, #blog:target .aboutme_page, #contact:target .aboutme_page {
-    overflow-y: hidden;
+    overflow: hidden;
     max-height: 100vh;
     transform: translateX(100%);
 }

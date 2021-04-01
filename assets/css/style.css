@@ -7,11 +7,7 @@
     --font-header-color-rgva: rgba(45, 61, 73, 0.6);
     --hr-color: rgba(45, 61, 73, 0.08);
     --section-color-light: #fafafa;
-    --special-dark-colour: /*#35B7FF*/
-    #6171D9/*#969696*/
-    /*#BB85FD*/
-    /*#A9A9A9*/
-    ;
+    --special-dark-colour: /*#35B7FF*/#6171D9/*#969696*/ /*#BB85FD*/ /*#A9A9A9*/;
     --special-dark-colour-osc: #4C5FD4;
     /*rgba(97, 113, 217, 0.8)*/
 }
