@@ -128,7 +128,7 @@ body.dark-mode .about-me-section {
 }
 
 body.dark-mode .main-wrapper {
-    background: #111821;
+    background: #151e29;;
     color: rgba(255, 255, 255, 0.7);
 }
 
@@ -241,3 +241,8 @@ body.dark-mode .footer-basic .social > a:hover {
     /* opacity:0.9; */
     color: var(--header-background-color);
   }
+
+  body.dark-mode .footer-basic .copyright a:hover {
+    /* opacity:0.9; */
+    color: var(--header-background-color);
+}

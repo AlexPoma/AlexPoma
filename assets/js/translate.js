@@ -1,4 +1,4 @@
-$.getJSON('assets/js/lang.json', function(json){
+$.getJSON('assets/json/lang.json', function(json){
     // localStorage.clear();
     // console.log(json);
     if(!localStorage.getItem("lang_strg")){

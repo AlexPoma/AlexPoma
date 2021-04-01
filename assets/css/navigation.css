@@ -1,0 +1,55 @@
+/* .page {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+.main-wrapper {
+    position: absolute;
+    transition: .5s, background-color 0s;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid red;
+}
+
+/*
+.main-wrapper {
+    margin-left: 280px;
+    background: #fff;
+}
+*/
+
+
+/* #page_aboutme{ */
+    /* width: 100%; */
+    /* margin-left: 280px; */
+    /* background: #fff; */
+/* } */
+
+
+#page_job, #page_resume, #page_blog, #page_contact {
+    transform: translateX(100%);
+}
+
+
+#job:target #page_job, #resume:target #page_resume, #blog:target #page_blog, #contact:target #page_contact {
+    transform: translateX(0%);
+    /* transition-delay: 0.4s; */
+}
+
+#job:target .aboutme_page, #resume:target .aboutme_page, #blog:target .aboutme_page, #contact:target .aboutme_page {
+    overflow:auto;
+    max-height: 100vh;
+    transform: translateX(100%);
+}
+
+/*
+#job:target .page#page_job .wrap, #resume:target .page#page_resume .wrap, #blog:target .page#page_blog .wrap, #contact:target .page#page_contact .wrap {
+    transform: translateX(0);
+    transition-delay: 1s;
+}
+*/

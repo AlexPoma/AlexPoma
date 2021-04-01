@@ -10,6 +10,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="description" content="Alex Poma, personal profile">
     <meta name="author" content="Alex Jhon Poma Pancaya">
     <link rel="shortcut icon" href="assets/images/icons/Lego_Circle.ico">
@@ -29,6 +32,7 @@
     <link id="theme-style" rel="stylesheet" href="assets/css/style_dark.css">
     <link id="theme-style" rel="stylesheet" href="assets/css/style_layout.css">
     <link id="theme-style" rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/navigation.css">
     <!-- <link id="theme-style" rel="stylesheet" href="assets/css/shadow.css"> -->
 
     <!-- JQuery -->
@@ -45,6 +49,7 @@
     <script src="assets/js/preload.js" charset="utf-8"></script>
     <script src="assets/js/nav-bar.js" charset="utf-8"></script>
     <script src="assets/js/isotope.js" charset="utf-8"></script>
+    <script src="assets/js/navigation-item.js" charset="utf-8"></script>
 
 </head>
 
@@ -99,31 +104,22 @@
                     <!--//end profile-section-->
 
                     <!-- <ul class="navbar-nav flex-column text-left"> -->
-                    <ul class="navbar-nav flex-column text-left">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html"><i class="fas fa-user fa-fw mr-2"></i><span class="lang" key="About"></span><span class="sr-only">(current)</span></a>
+                    <ul class="nav_list_item navbar-nav flex-column text-left">
+                        <li class="nav-item aboutme_page1 active">
+                        <!-- <li class="nav-item"> -->
+                            <a class="nav-link" href="#"><i class="fas fa-user fa-fw mr-2"></i><span class="lang" key="About"></span><span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="services.html"><i class="fas fa-briefcase fa-fw mr-2"></i><span class="lang" key="Job"></span></a>
+                        <li class="nav-item job_page2">
+                            <a class="nav-link" href="#job"><i class="fas fa-briefcase fa-fw mr-2"></i><span class="lang" key="Job"></span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw mr-2"></i><span class="lang" key="Resume"></span></a>
+                        <li class="nav-item resume_page3">
+                            <a class="nav-link" href="#resume"><i class="fas fa-file-alt fa-fw mr-2"></i><span class="lang" key="Resume"></span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="blog-home.html"><i class="fas fa-blog fa-fw mr-2"></i><span class="lang" key="Blog"></span></a>
+                        <li class="nav-item blog_page4">
+                            <a class="nav-link" href="#blog"><i class="fas fa-blog fa-fw mr-2"></i><span class="lang" key="Blog"></span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw mr-2"></i><span class="lang" key="Contact"></span></a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="false">
-                                <i class="fas fa-cogs fa-fw mr-2"></i><span class="lang" key="More"></span>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="project.html">Investigación</a>
-                                <a class="dropdown-item" href="blog-home.html">Awards</a>
-                                <a class="dropdown-item" href="blog-post.html">Mé</a>
-                            </div>
+                        <li class="nav-item contact_page5">
+                            <a class="nav-link" href="#contact"><i class="fas fa-envelope-open-text fa-fw mr-2"></i><span class="lang" key="Contact"></span></a>
                         </li>
                     </ul>
 
@@ -165,621 +161,677 @@
     </header>
     <!-- End Header -->
 
-    <div class="main-wrapper">
-        <section class="about-me-section p-3 p-lg-5 theme-bg-light">
-            <!--//Start About-me-section-->
-            <div class="container">
-                <div class="profile-teaser media flex-column flex-lg-row">
+    <!-- <div class="main-wrapper"> -->
 
-                    <div class="media-body">
-                        <h2 class="name font-weight-bold mb-1 lang" key="Name"></h2>
-                        <div class="tagline mb-3 lang" key="Career"></div>
+    <!--  -->
+    <div id="aboutme">
+        <div  id="job">
+            <div id="resume">
+                <div  id="blog">
+                    <div  id="contact">
+    <!--  -->
 
-                        <!-- <div class="bio mb-4">I'm a software engineer specialised in frontend and backend development for complex scalable web apps. I write about software development on <a class="link-on-bg" href="blog-home.html">my blog</a>. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="projects.html">portfolio</a> and <a class="link-on-bg" href="resume.html">online resume</a>. -->
-                        <div class="bio mb-4 lang" key="AboutMe">
-                        </div>
+                        <!-- <div class="main-wrapper"> -->
 
-                        <div class="mb-4">
-                            <!-- <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a> -->
-                            <!-- <a class="btn btn-secondary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline">View</span> Resume</a> -->
-                            <a class="btn btn-primary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline"></span><span class="lang" key="ViewResume"></span></a>
-                        </div>
+                            <div class="main-wrapper aboutme_page" id="page_aboutme">
+
+                                <section class="about-me-section p-3 p-lg-5 theme-bg-light">
+                                    <!--//Start About-me-section-->
+                                    <div class="container">
+                                        <div class="profile-teaser media flex-column flex-lg-row">
+
+                                            <div class="media-body">
+                                                <h2 class="name font-weight-bold mb-1 lang" key="Name"></h2>
+                                                <div class="tagline mb-3 lang" key="Career"></div>
+
+                                                <!-- <div class="bio mb-4">I'm a software engineer specialised in frontend and backend development for complex scalable web apps. I write about software development on <a class="link-on-bg" href="blog-home.html">my blog</a>. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="projects.html">portfolio</a> and <a class="link-on-bg" href="resume.html">online resume</a>. -->
+                                                <div class="bio mb-4 lang" key="AboutMe">
+                                                </div>
+
+                                                <div class="mb-4">
+                                                    <!-- <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a> -->
+                                                    <!-- <a class="btn btn-secondary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline">View</span> Resume</a> -->
+                                                    <a class="btn btn-primary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline"></span><span class="lang" key="ViewResume"></span></a>
+                                                </div>
+                                            </div>
+                                            <img class="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0" src="assets/images/Profile/HazbinHotelCharlieHappy.gif" alt="">
+                                        </div>
+                                    </div>
+                                </section>
+                                <!--//End About-me-section-->
+
+                                <!-- <div class="container"><hr></div> -->
+
+                                <section class="software-section px-3 py-5 p-md-5">
+                                    <div class="container">
+
+                                        <h2 class="section-title font-weight-bold mb-3">Software Skills</h2>
+                                        <div class="section-intro mb-5">
+                                            I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a href="resume.html">online resume</a>                    and <a href="portfolio.html">project portfolio</a>.
+                                        </div>
+
+                                        <div class="text-center">
+                                            <ul id="filters" class="filters mb-1 mx-auto pl-0">
+                                                <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
+                                                <li class="type mb-3 mb-lg-0" data-filter=".DataBase">Base de Datos</li>
+                                                <li class="type mb-3 mb-lg-0" data-filter=".BigData">Big Data</li>
+                                                <li class="type mb-3 mb-lg-0" data-filter=".DataAnalytics">Analisis de Datos</li>
+                                                <li class="type mb-3 mb-lg-0" data-filter=".Develop">Programación</li>
+                                                <li class="type mb-3 mb-lg-0" data-filter=".Office">Ofimatica</li>
+                                                <li class="type mb-3 mb-lg-0" data-filter=".OS">Sistemas Operativos</li>
+                                            </ul>
+                                            <!--//filters-->
+                                        </div>
+
+                                        <div class="project-cards row isotope">
+                                            <div class="isotope-item card-img-holder Ligth col-try-8 col-sm-2 col-3 DataBase">
+                                                <div class="Ligth">
+                                                    <img src="assets/images/SofwareSkills/Msqlserver.png" class="card-img" alt="image">
+                                                </div>
+                                                <div class="Dark">
+                                                    <img src="assets/images/SofwareSkills/Msqlserver-Dark.png" class="card-img" alt="image">
+                                                </div>
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
+                                                <img src="assets/images/SofwareSkills/AWS.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
+                                                <img src="assets/images/SofwareSkills/PowerBI.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
+                                                <img src="assets/images/SofwareSkills/Azure.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
+                                                <img src="assets/images/SofwareSkills/SSIS_SSAS_SSRS.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
+                                                <img src="assets/images/SofwareSkills/Anaconda.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
+                                                <img src="assets/images/SofwareSkills/Apache_Hive.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
+                                                <div class="Ligth">
+                                                    <img src="assets/images/SofwareSkills/Git.png" class="card-img" alt="image">
+                                                </div>
+                                                <div class="Dark">
+                                                    <img src="assets/images/SofwareSkills/Git-Dark.png" class="card-img" alt="image">
+                                                </div>
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
+                                                <img src="assets/images/SofwareSkills/Hadoop.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
+                                                <img src="assets/images/SofwareSkills/Jupyter.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder Ligth col-try-8 col-sm-2 col-3 Office">
+                                                <div class="Ligth">
+                                                    <img src="assets/images/SofwareSkills/LibreOffice.png" class="card-img" alt="image">
+                                                </div>
+                                                <div class="Dark">
+                                                    <img src="assets/images/SofwareSkills/LibreOffice-Dark.png" class="card-img" alt="image">
+                                                </div>
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
+                                                <img src="assets/images/SofwareSkills/MongoDB.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
+                                                <img src="assets/images/SofwareSkills/MySQL.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
+                                                <img src="assets/images/SofwareSkills/VisualStudioCode.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Office">
+                                                <img src="assets/images/SofwareSkills/Office.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
+                                                <img src="assets/images/SofwareSkills/Oracle.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
+                                                <img src="assets/images/SofwareSkills/Postgresql.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
+                                                <img src="assets/images/SofwareSkills/RStudio.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 OS">
+                                                <img src="assets/images/SofwareSkills/Ubuntu.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder Ligth col-try-8 col-sm-2 col-3 Develop">
+                                                <div class="Ligth">
+                                                    <img src="assets/images/SofwareSkills/Spyder.png" class="card-img" alt="image">
+                                                </div>
+                                                <div class="Dark">
+                                                    <img src="assets/images/SofwareSkills/Spyder-Dark.png" class="card-img" alt="image">
+                                                </div>
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
+                                                <img src="assets/images/SofwareSkills/VisualStudio.png" class="card-img" alt="image">
+                                            </div>
+
+                                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 OS">
+                                                <img src="assets/images/SofwareSkills/Windows.png" class="card-img" alt="image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <div class="container"><hr></div>
+
+                                <section class="coding-section p-3 p-lg-5">
+                                    <div class="container">
+                                        <h2 class="section-title font-weight-bold mb-5">Codding Skills</h2>
+                                        <div class="coding-carousel-container">
+                                            <div class="coding-carousel tiny-slider">
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/SQL.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/SQL-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">SQL</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/PYTHON.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/PYTHON-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">Python</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/R.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/R-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">R</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/DAX.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/DAX-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">DAX</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/MDX.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/MDX-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">MDX</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/JAVA.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/JAVA-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">Java</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/PLSQL.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/PLSQL-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">PlSql</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/SHELL.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/SHELL-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">Shell</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/VB.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/VB-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">VB.net</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/CSharp.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/CSharp-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">C#</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/C++.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/C++-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">C++</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/HTML.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/HTML-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">HTML</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/CSS.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/CSS-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">CSS</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/JS.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/JS-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">JScript</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/JSON.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/JSON-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">JSON</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="source-profile">
+                                                            <div class="Ligth">
+                                                                <img src="assets/images/Languages/XML.png" alt="image" />
+                                                            </div>
+                                                            <div class="Dark">
+                                                                <img src="assets/images/Languages/XML-Dark.png" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="name">XML</div>
+                                                    </div>
+                                                </div><!--//item-->
+                                            </div>
+                                            <!--//testimonial-carousel-->
+                                        </div>
+                                        <!--//testimonial-carousel-container-->
+                                    </div>
+                                    <!--//container-->
+                                </section>
+                                <!--//testimonials-section-->
+                                
+                                <div class="container"><hr></div>
+
+                                <section class="language-section p-3 p-lg-5">
+                                    <div class="container">
+                                        <h2 class="section-title font-weight-bold mb-3">Language Skills</h2>
+                                        <div class="section-intro mb-5">I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a href="resume.html">online resume</a>                    and <a href="portfolio.html">project portfolio</a>.</div>
+
+                                        <div class="row">
+                                            <div class="esp col-sm-4">
+                                                <div class="circle-big">
+                                                    <div class="text_porc">100%</div>
+                                                    <svg>
+                                                        <circle class="bg" cx="74" cy="74" r="70"></circle>
+                                                        <circle class="progress" cx="74" cy="74" r="70"></circle>
+                                                    </svg>
+                                                </div>
+                                                <div class="text_desc">Español</div>
+                                            </div>
+                                            <div class="eng col-sm-4">
+                                                <div class="circle-big">
+                                                    <div class="text_porc">75%</div>
+                                                    <svg>
+                                                        <circle class="bg" cx="74" cy="74" r="70"></circle>
+                                                        <circle class="progress" cx="74" cy="74" r="70"></circle>
+                                                    </svg>
+                                                </div>
+                                                <div class="text_desc">Ingles</div>
+                                            </div>
+                                            <div class="br col-sm-4">
+                                                <div class="circle-big">
+                                                    <div class="text_porc">85%</div>
+                                                    <svg>
+                                                        <circle class="bg" cx="74" cy="74" r="70"></circle>
+                                                        <circle class="progress" cx="74" cy="74" r="70"></circle>
+                                                    </svg>
+                                                </div>
+                                                <div class="text_desc">Portugues</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--//container-->
+                                </section>
+
+                                <div class="container"><hr></div>
+
+
+                                <section class="testimonials-section p-3 p-lg-5">
+                                    <div class="container">
+                                        <h2 class="section-title font-weight-bold mb-5">Testimonials</h2>
+                                        
+                                        <div class="testiomonial-carousel-container">
+                                            <div class="testimonial-carousel  tiny-slider">
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="quote-holder">
+                                                            <blockquote class="quote-content">
+                                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+                                                            </blockquote>
+                                                        </div><!--//quote-holder-->
+                                                        <div class="source-holder">
+                                                            <div class="source-profile">
+                                                                <img src="assets/images/Testimonials/Person_1.jpg" alt="image"/>
+                                                            </div>
+                                                            <div class="meta">
+                                                                <div class="name">Brandon James</div>
+                                                                <div class="info">Project Manager, Google</div>
+                                                                <div class="socials">
+                                                                    <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><!--//item-inner-->
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="quote-holder">
+                                                            <blockquote class="quote-content">
+                                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+                                                            </blockquote>
+                                                        </div><!--//quote-holder-->
+                                                        <div class="source-holder">
+                                                            <div class="source-profile">
+                                                                <img src="assets/images/Testimonials/Person_2.jpg" alt="image"/>
+                                                            </div>
+                                                            <div class="meta">
+                                                                <div class="name">Brandon James</div>
+                                                                <div class="info">Project Manager, Google</div>
+                                                                <div class="socials">
+                                                                    <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><!--//item-inner-->
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="quote-holder">
+                                                            <blockquote class="quote-content">
+                                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+                                                            </blockquote>
+                                                        </div><!--//quote-holder-->
+                                                        <div class="source-holder">
+                                                            <div class="source-profile">
+                                                                <img src="assets/images/Testimonials/Person_3.jpg" alt="image"/>
+                                                            </div>
+                                                            <div class="meta">
+                                                                <div class="name">Brandon James</div>
+                                                                <div class="info">Project Manager, Google</div>
+                                                                <div class="socials">
+                                                                    <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><!--//item-inner-->
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="quote-holder">
+                                                            <blockquote class="quote-content">
+                                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+                                                            </blockquote>
+                                                        </div><!--//quote-holder-->
+                                                        <div class="source-holder">
+                                                            <div class="source-profile">
+                                                                <img src="assets/images/Testimonials/Person_4.jpg" alt="image"/>
+                                                            </div>
+                                                            <div class="meta">
+                                                                <div class="name">Brandon James</div>
+                                                                <div class="info">Project Manager, Google</div>
+                                                                <div class="socials">
+                                                                    <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><!--//item-inner-->
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="quote-holder">
+                                                            <blockquote class="quote-content">
+                                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+                                                            </blockquote>
+                                                        </div><!--//quote-holder-->
+                                                        <div class="source-holder">
+                                                            <div class="source-profile">
+                                                                <img src="assets/images/Testimonials/Person_5.jpg" alt="image"/>
+                                                            </div>
+                                                            <div class="meta">
+                                                                <div class="name">Brandon James</div>
+                                                                <div class="info">Project Manager, Google</div>
+                                                                <div class="socials">
+                                                                    <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><!--//item-inner-->
+                                                </div><!--//item-->
+                                                <div class="item">
+                                                    <div class="item-inner">
+                                                        <div class="quote-holder">
+                                                            <blockquote class="quote-content">
+                                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
+                                                            </blockquote>
+                                                        </div><!--//quote-holder-->
+                                                        <div class="source-holder">
+                                                            <div class="source-profile">
+                                                                <img src="assets/images/Testimonials/Person_6.jpg" alt="image"/>
+                                                            </div>
+                                                            <div class="meta">
+                                                                <div class="name">Brandon James</div>
+                                                                <div class="info">Project Manager, Google</div>
+                                                                <div class="socials">
+                                                                    <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                                                    <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><!--//item-inner-->
+                                                </div><!--//item-->
+                                            </div><!--//testimonial-carousel-->	
+                                        </div><!--//testimonial-carousel-container-->	
+                                    </div><!--//container-->
+                                </section><!--//testimonials-section-->
+                                
+                                
+                                
+                                <script src="assets/js/carousel.js"></script>
+                                <script src="assets/js/testimonials.js"></script>
+                                
+                                <div class="container"><hr></div>
+                                
+                                <!-- <footer class="footer text-center py-4">
+                                    <small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+                                </footer> -->
+                                <!-- <div class="footer-basic"> -->
+
+                                <footer class="footer-basic text-center py-4">
+                                    <div class="container">
+                                        <div class="social">
+                                            <a href="https://twitter.com/Alex_Poma_P" target="_blank"><i class="fab fa-twitter fa-fw"></i></a>
+                                            <a href="https://www.linkedin.com/in/alexpoma/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                            <a href="https://github.com/AlexPoma" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a>
+                                            <a href="https://stackoverflow.com/users/5029460/alex-poma" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i></a>
+                                            <a href="https://alexpoma.medium.com/" target="_blank"><i class="fab fa-medium fa-fw"></i></a>
+                                            <a href="https://www.kaggle.com/alexpomads" target="_blank"><i class="fab fa-kaggle fa-fw"></i></a>
+                                        </div>
+                                        <div>
+                                            <blockquote>
+                                                <i>
+                                                    <p class="text">&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                                                        blanditiis quod laudantium nobis, quibusdam, modi porro, quisquam magnam ipsum perferendis
+                                                        minus quo a minima quidem. Quibusdam repellat quidem alias commodi!&ldquo;</p>
+                                                </i>
+                                            </blockquote>
+                                            <p class="copyright">
+                                                <img src="assets/images/Profile/lego-programmer.jpg" alt=""> <a
+                                                    href="https://alexpoma.github.io/">Alex Poma</a> | <a
+                                                    href="https://github.com/AlexPoma/AlexPoma.github.io" target="_blank">Código de la página</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </footer>
+                            
+                            </div>
+
+                        <!-- </div> -->
+
+                        <!-- <div class="main-wrapper">   -->
+
+                            <div class="main-wrapper" id="page_job">
+                                <img src="assets/images/Profile/lego-programmer.jpg" alt="">
+                            </div>
+                        <!-- </div> -->
+
+
+                        <!-- <div class="main-wrapper">   -->
+                            <div class="main-wrapper" id="page_resume">
+                                <img src="assets/images/Profile/lego-programmer.jpg" alt="">
+                            </div>
+                        <!-- </div> -->
+
+                        <!-- <div class="main-wrapper">   -->
+                            <div class="main-wrapper" id="page_blog">
+                                <img src="assets/images/Profile/lego-programmer.jpg" alt="">
+                            </div>
+                        <!-- </div> -->
+
+                        <!-- <div class="main-wrapper">   -->
+                            <div class="main-wrapper" id="page_contact">
+                                <img src="assets/images/Profile/lego-programmer.jpg" alt="">
+                            </div>
+                        <!-- </div> -->
+            
+    <!--  -->
                     </div>
-                    <img class="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0" src="assets/images/Profile/HazbinHotelCharlieHappy.gif" alt="">
                 </div>
             </div>
-        </section>
-        <!--//End About-me-section-->
-
-        <!-- <div class="container"><hr></div> -->
-
-        <section class="software-section px-3 py-5 p-md-5">
-            <div class="container">
-
-                <h2 class="section-title font-weight-bold mb-3">Software Skills</h2>
-                <div class="section-intro mb-5">
-                    I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a href="resume.html">online resume</a>                    and <a href="portfolio.html">project portfolio</a>.
-                </div>
-
-                <div class="text-center">
-                    <ul id="filters" class="filters mb-1 mx-auto pl-0">
-                        <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
-                        <li class="type mb-3 mb-lg-0" data-filter=".DataBase">Base de Datos</li>
-                        <li class="type mb-3 mb-lg-0" data-filter=".BigData">Big Data</li>
-                        <li class="type mb-3 mb-lg-0" data-filter=".DataAnalytics">Analisis de Datos</li>
-                        <li class="type mb-3 mb-lg-0" data-filter=".Develop">Programación</li>
-                        <li class="type mb-3 mb-lg-0" data-filter=".Office">Ofimatica</li>
-                        <li class="type mb-3 mb-lg-0" data-filter=".OS">Sistemas Operativos</li>
-                    </ul>
-                    <!--//filters-->
-                </div>
-
-                <div class="project-cards row isotope">
-                    <div class="isotope-item card-img-holder Ligth col-try-8 col-sm-2 col-3 DataBase">
-                        <div class="Ligth">
-                            <img src="assets/images/SofwareSkills/Msqlserver.png" class="card-img" alt="image">
-                        </div>
-                        <div class="Dark">
-                            <img src="assets/images/SofwareSkills/Msqlserver-Dark.png" class="card-img" alt="image">
-                        </div>
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
-                        <img src="assets/images/SofwareSkills/AWS.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
-                        <img src="assets/images/SofwareSkills/PowerBI.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
-                        <img src="assets/images/SofwareSkills/Azure.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
-                        <img src="assets/images/SofwareSkills/SSIS_SSAS_SSRS.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
-                        <img src="assets/images/SofwareSkills/Anaconda.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
-                        <img src="assets/images/SofwareSkills/Apache_Hive.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
-                        <div class="Ligth">
-                            <img src="assets/images/SofwareSkills/Git.png" class="card-img" alt="image">
-                        </div>
-                        <div class="Dark">
-                            <img src="assets/images/SofwareSkills/Git-Dark.png" class="card-img" alt="image">
-                        </div>
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
-                        <img src="assets/images/SofwareSkills/Hadoop.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
-                        <img src="assets/images/SofwareSkills/Jupyter.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder Ligth col-try-8 col-sm-2 col-3 Office">
-                        <div class="Ligth">
-                            <img src="assets/images/SofwareSkills/LibreOffice.png" class="card-img" alt="image">
-                        </div>
-                        <div class="Dark">
-                            <img src="assets/images/SofwareSkills/LibreOffice-Dark.png" class="card-img" alt="image">
-                        </div>
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
-                        <img src="assets/images/SofwareSkills/MongoDB.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
-                        <img src="assets/images/SofwareSkills/MySQL.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
-                        <img src="assets/images/SofwareSkills/VisualStudioCode.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Office">
-                        <img src="assets/images/SofwareSkills/Office.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
-                        <img src="assets/images/SofwareSkills/Oracle.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
-                        <img src="assets/images/SofwareSkills/Postgresql.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
-                        <img src="assets/images/SofwareSkills/RStudio.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 OS">
-                        <img src="assets/images/SofwareSkills/Ubuntu.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder Ligth col-try-8 col-sm-2 col-3 Develop">
-                        <div class="Ligth">
-                            <img src="assets/images/SofwareSkills/Spyder.png" class="card-img" alt="image">
-                        </div>
-                        <div class="Dark">
-                            <img src="assets/images/SofwareSkills/Spyder-Dark.png" class="card-img" alt="image">
-                        </div>
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
-                        <img src="assets/images/SofwareSkills/VisualStudio.png" class="card-img" alt="image">
-                    </div>
-
-                    <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 OS">
-                        <img src="assets/images/SofwareSkills/Windows.png" class="card-img" alt="image">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="coding-section p-3 p-lg-5">
-            <div class="container">
-                <h2 class="section-title font-weight-bold mb-5">Codding Skills</h2>
-                <div class="coding-carousel-container">
-                    <div class="coding-carousel tiny-slider">
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/SQL.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/SQL-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">SQL</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/PYTHON.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/PYTHON-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">Python</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/R.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/R-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">R</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/DAX.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/DAX-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">DAX</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/MDX.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/MDX-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">MDX</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/JAVA.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/JAVA-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">Java</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/PLSQL.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/PLSQL-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">PlSql</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/SHELL.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/SHELL-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">Shell</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/VB.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/VB-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">VB.net</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/CSharp.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/CSharp-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">C#</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/C++.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/C++-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">C++</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/HTML.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/HTML-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">HTML</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/CSS.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/CSS-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">CSS</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/JS.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/JS-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">JScript</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/JSON.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/JSON-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">JSON</div>
-                            </div>
-                        </div><!--//item-->
-                        <div class="item">
-                            <div class="item-inner">
-                                <div class="source-profile">
-                                    <div class="Ligth">
-                                        <img src="assets/images/Languages/XML.png" alt="image" />
-                                    </div>
-                                    <div class="Dark">
-                                        <img src="assets/images/Languages/XML-Dark.png" alt="image" />
-                                    </div>
-                                </div>
-                                <div class="name">XML</div>
-                            </div>
-                        </div><!--//item-->
-                    </div>
-                    <!--//testimonial-carousel-->
-                </div>
-                <!--//testimonial-carousel-container-->
-            </div>
-            <!--//container-->
-        </section>
-        <!--//testimonials-section-->
-
-
-        <section class="language-section p-3 p-lg-5">
-            <div class="container">
-                <h2 class="section-title font-weight-bold mb-3">Language Skills</h2>
-                <div class="section-intro mb-5">I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a href="resume.html">online resume</a>                    and <a href="portfolio.html">project portfolio</a>.</div>
-
-                <div class="row">
-                    <div class="esp col-sm-4">
-                        <div class="circle-big">
-                            <div class="text_porc">100%</div>
-                            <svg>
-                                <circle class="bg" cx="74" cy="74" r="70"></circle>
-                                <circle class="progress" cx="74" cy="74" r="70"></circle>
-                            </svg>
-                        </div>
-                        <div class="text_desc">Español</div>
-                    </div>
-                    <div class="eng col-sm-4">
-                        <div class="circle-big">
-                            <div class="text_porc">75%</div>
-                            <svg>
-                                <circle class="bg" cx="74" cy="74" r="70"></circle>
-                                <circle class="progress" cx="74" cy="74" r="70"></circle>
-                            </svg>
-                        </div>
-                        <div class="text_desc">Ingles</div>
-                    </div>
-                    <div class="br col-sm-4">
-                        <div class="circle-big">
-                            <div class="text_porc">85%</div>
-                            <svg>
-                                <circle class="bg" cx="74" cy="74" r="70"></circle>
-                                <circle class="progress" cx="74" cy="74" r="70"></circle>
-                            </svg>
-                        </div>
-                        <div class="text_desc">Portugues</div>
-                    </div>
-                </div>
-            </div>
-            <!--//container-->
-        </section>
-
-
-
-
-        <section class="testimonials-section p-3 p-lg-5">
-			<div class="container">
-				<h2 class="section-title font-weight-bold mb-5">Testimonials</h2>
-				
-				<div class="testiomonial-carousel-container">
-					<div class="testimonial-carousel  tiny-slider">
-	                    <div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/Testimonials/Person_1.jpg" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Brandon James</div>
-										<div class="info">Project Manager, Google</div>
-                                        <div class="socials">
-                                            <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                                            <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
-                                            <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
-                                        </div>
-									</div>
-								</div>
-							</div><!--//item-inner-->
-						</div><!--//item-->
-                        <div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/Testimonials/Person_2.jpg" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Brandon James</div>
-										<div class="info">Project Manager, Google</div>
-                                        <div class="socials">
-                                            <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                                            <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
-                                            <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
-                                        </div>
-									</div>
-								</div>
-							</div><!--//item-inner-->
-						</div><!--//item-->
-                        <div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/Testimonials/Person_3.jpg" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Brandon James</div>
-										<div class="info">Project Manager, Google</div>
-                                        <div class="socials">
-                                            <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                                            <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
-                                            <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
-                                        </div>
-									</div>
-								</div>
-							</div><!--//item-inner-->
-						</div><!--//item-->
-                        <div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/Testimonials/Person_4.jpg" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Brandon James</div>
-										<div class="info">Project Manager, Google</div>
-                                        <div class="socials">
-                                            <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                                            <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
-                                            <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
-                                        </div>
-									</div>
-								</div>
-							</div><!--//item-inner-->
-						</div><!--//item-->
-                        <div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/Testimonials/Person_5.jpg" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Brandon James</div>
-										<div class="info">Project Manager, Google</div>
-                                        <div class="socials">
-                                            <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                                            <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
-                                            <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
-                                        </div>
-									</div>
-								</div>
-							</div><!--//item-inner-->
-						</div><!--//item-->
-                        <div class="item">
-							<div class="item-inner">
-								<div class="quote-holder">
-									<blockquote class="quote-content">
-										Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.
-									</blockquote>
-								</div><!--//quote-holder-->
-								<div class="source-holder">
-									<div class="source-profile">
-										<img src="assets/images/Testimonials/Person_6.jpg" alt="image"/>
-									</div>
-									<div class="meta">
-										<div class="name">Brandon James</div>
-										<div class="info">Project Manager, Google</div>
-                                        <div class="socials">
-                                            <a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                                            <a href="#" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
-                                            <a href="#" target="_blank"><i class="fas fa-envelope-open-text"></i></a>
-                                        </div>
-									</div>
-								</div>
-							</div><!--//item-inner-->
-						</div><!--//item-->
-                    </div><!--//testimonial-carousel-->	
-				</div><!--//testimonial-carousel-container-->	
-			</div><!--//container-->
-		</section><!--//testimonials-section-->
-        
-
-        <script src="assets/js/carousel.js"></script>
-        <script src="assets/js/testimonials.js"></script>
-
-        
-        <!-- <footer class="footer text-center py-4">
-            <small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
-        </footer> -->
-        <!-- <div class="footer-basic"> -->
-
-            <div class="container"><hr></div>
-
-            <footer class="footer-basic text-center py-4">
-                <div class="container">
-                    <div class="social">
-                        <a href="https://twitter.com/Alex_Poma_P" target="_blank"><i class="fab fa-twitter fa-fw"></i></a>
-                        <a href="https://www.linkedin.com/in/alexpoma/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
-                        <a href="https://github.com/AlexPoma" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a>
-                        <a href="https://stackoverflow.com/users/5029460/alex-poma" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i></a>
-                        <a href="https://alexpoma.medium.com/" target="_blank"><i class="fab fa-medium fa-fw"></i></a>
-                        <a href="https://www.kaggle.com/alexpomads" target="_blank"><i class="fab fa-kaggle fa-fw"></i></a>
-                    </div>
-                    <div>
-                        <blockquote>
-                            <i>
-                                <p class="text">&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis quod laudantium nobis, quibusdam, modi porro, quisquam magnam ipsum perferendis minus quo a minima quidem. Quibusdam repellat quidem alias commodi!&ldquo;</p>
-                            </i>
-                        </blockquote>
-                        <p class="copyright">
-                            <img src="assets/images/Profile/lego-programmer.jpg" alt=""> <a href="https://alexpoma.github.io/" target="_blank">Alex Poma</a> | <a href="https://github.com/AlexPoma/AlexPoma.github.io" target="_blank">Código de la página</a></p>
-                    </div>
-                </div>
-            </footer>
-        <!-- </div> -->
-        
+        </div>
     </div>
+    <!--  -->
 
+    <!-- </div> -->
 
 </body>
 
