@@ -10,46 +10,73 @@
 .main-wrapper {
     position: absolute;
     transition: .5s, background-color 0s;
-    top: 0;
+    /* top: 0; */
     left: 0;
     right: 0;
     border: 1px solid red;
-    position: fixed;
+    /* width: 100%; */
+    /* display: block; */
+    
+    /* overflow: hidden; */
+    /* position: fixed; */
+    /* transition-delay: 0.4s; */
 }
 
+header{
+    border: 1px solid blue;
+}
+
+/* #page_aboutme, #page_job, #page_resume, #page_blog, #page_contact { */
+.page_fixed {
+    position: fixed;
+    /* transition: none; */
+    /* max-width: 100vh; */
+}
+
+#page_job, #page_resume, #page_blog, #page_contact {
+    transform: translateX(100%);
+    /* transition: none; */
+    /* position: fixed; */
+    /* max-width: 100vh; */
+    
+    
+}
+
+#job:target #page_job, #resume:target #page_resume, #blog:target #page_blog, #contact:target #page_contact {
+    transform: translateX(0%);
+    /* transform: translatey(0%); */
+    /* transition-delay: 0.4s; */
+    /* top: 0; */
+    /* transition: transform .5s; */
+    /* position: absolute; */
+}
+
+
+
+#job:target #page_aboutme, #resume:target #page_aboutme, #blog:target #page_aboutme, #contact:target #page_aboutme {
+    overflow: hidden;
+    max-height: 100vh;
+    /* width: 100%; */
+    transform: translateX(100%);
+    /* position: fixed; */
+    /* position: absolute; */
+    /* top: 0px; */
+
+}
+
+
 /*
-.main-wrapper {
-    margin-left: 280px;
-    background: #fff;
+#job:target .aboutme_page, #job:target .job_page, #job:target .resume_page, #job:target .blog_page, #job:target .contact_page {
+    overflow: hidden;
+    max-height: 100vh;
+    transform: translateX(100%);
+    position: fixed;
 }
 */
 
 
-/* #page_aboutme{ */
-    /* width: 100%; */
-    /* margin-left: 280px; */
-    /* background: #fff; */
-/* } */
 
 
-#page_job, #page_resume, #page_blog, #page_contact {
-    transform: translateX(100%);
-    /* position: fixed; */
-    /* width: ; */
-}
-
-
-#job:target #page_job, #resume:target #page_resume, #blog:target #page_blog, #contact:target #page_contact {
-    transform: translateX(0%);
-    
-    /* transition-delay: 0.4s; */
-}
-
-#job:target .aboutme_page, #resume:target .aboutme_page, #blog:target .aboutme_page, #contact:target .aboutme_page {
-    overflow: hidden;
-    max-height: 100vh;
-    transform: translateX(100%);
-}
 
 /*
 #job:target .page#page_job .wrap, #resume:target .page#page_resume .wrap, #blog:target .page#page_blog .wrap, #contact:target .page#page_contact .wrap {

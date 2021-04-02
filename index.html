@@ -10,6 +10,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width;" /> -->
     <meta name="theme-color" content="#2D3D49">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -106,20 +107,20 @@
 
                     <!-- <ul class="navbar-nav flex-column text-left"> -->
                     <ul class="nav_list_item navbar-nav flex-column text-left">
-                        <li class="nav-item aboutme_page1 active">
+                        <li class="nav-item aboutme_page_item active" data-page_flag="aboutme_page_flag">
                         <!-- <li class="nav-item"> -->
                             <a class="nav-link" href="#"><i class="fas fa-user fa-fw mr-2"></i><span class="lang" key="About"></span><span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item job_page2">
+                        <li class="nav-item job_page_item" data-page_flag="job_page_flag">
                             <a class="nav-link" href="#job"><i class="fas fa-briefcase fa-fw mr-2"></i><span class="lang" key="Job"></span></a>
                         </li>
-                        <li class="nav-item resume_page3">
+                        <li class="nav-item resume_page_item" data-page_flag="resume_page_flag">
                             <a class="nav-link" href="#resume"><i class="fas fa-file-alt fa-fw mr-2"></i><span class="lang" key="Resume"></span></a>
                         </li>
-                        <li class="nav-item blog_page4">
+                        <li class="nav-item blog_page_item" data-page_flag="blog_page_flag">
                             <a class="nav-link" href="#blog"><i class="fas fa-blog fa-fw mr-2"></i><span class="lang" key="Blog"></span></a>
                         </li>
-                        <li class="nav-item contact_page5">
+                        <li class="nav-item contact_page_item" data-page_flag="contact_page_flag">
                             <a class="nav-link" href="#contact"><i class="fas fa-envelope-open-text fa-fw mr-2"></i><span class="lang" key="Contact"></span></a>
                         </li>
                     </ul>
@@ -174,7 +175,8 @@
 
                         <!-- <div class="main-wrapper"> -->
 
-                            <div class="main-wrapper aboutme_page" id="page_aboutme">
+
+                            <div class="main-wrapper aboutme_page page_fixed" id="page_aboutme">
 
                                 <section class="about-me-section p-3 p-lg-5 theme-bg-light">
                                     <!--//Start About-me-section-->
@@ -757,8 +759,7 @@
                                 
                                 
                                 
-                                <script src="assets/js/carousel.js"></script>
-                                <script src="assets/js/testimonials.js"></script>
+
                                 
                                 <div class="container"><hr></div>
                                 
@@ -800,30 +801,46 @@
 
                         <!-- <div class="main-wrapper">   -->
 
-                            <div class="main-wrapper" id="page_job">
-                                <img src="assets/images/Profile/lego-programmer.jpg" alt="">
+                            <div class="main-wrapper job_page page_fixed" id="page_job">
+                                <section class="testimonials-section p-3 p-lg-5">
+                                    <div class="row">
+                                        <img src="assets/images/Profile/lego-programmer.jpg" alt="">
+                                    </div>
+                                    <div class="row">
+                                        <img src="assets/images/Profile/lego-programmer.jpg" alt="">
+                                    </div>
+                                    <div class="row">
+                                        <img src="assets/images/Profile/lego-programmer.jpg" alt="">
+                                    </div>
+                                    <div class="row">
+                                        <img src="assets/images/Profile/lego-programmer.jpg" alt="">
+                                    </div>
+                                    <div class="row">
+                                        <img src="assets/images/Profile/lego-programmer.jpg" alt="">
+                                    </div>
+                                </section>
                             </div>
                         <!-- </div> -->
 
 
                         <!-- <div class="main-wrapper">   -->
-                            <div class="main-wrapper" id="page_resume">
+                            <div class="main-wrapper resume_page page_fixed" id="page_resume">
                                 <img src="assets/images/Profile/lego-programmer.jpg" alt="">
                             </div>
                         <!-- </div> -->
 
                         <!-- <div class="main-wrapper">   -->
-                            <div class="main-wrapper" id="page_blog">
+                            <div class="main-wrapper blog_page page_fixed" id="page_blog">
                                 <img src="assets/images/Profile/lego-programmer.jpg" alt="">
                             </div>
                         <!-- </div> -->
 
                         <!-- <div class="main-wrapper">   -->
-                            <div class="main-wrapper" id="page_contact">
+                            <div class="main-wrapper contact_page page_fixed" id="page_contact">
                                 <img src="assets/images/Profile/lego-programmer.jpg" alt="">
                             </div>
                         <!-- </div> -->
-            
+
     <!--  -->
                     </div>
                 </div>
@@ -833,6 +850,8 @@
     <!--  -->
 
     <!-- </div> -->
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/testimonials.js"></script>
 
 </body>
 

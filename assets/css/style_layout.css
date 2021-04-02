@@ -73,12 +73,19 @@
     .header {
         position: static;
         width: auto;
-        height: 40px;
+        height: 0px;
+        /* padding-bottom: 40px; */
+        /* visibility: hidden; */
+        /* display: none; */
         background: var(--section-color-light);
         /* background: none !important; */
         /* overflow-y: none !important;
         scrollbar-color: none !important;
         scrollbar-width: none !important; */
+    }
+
+    .main-wrapper {
+        padding-top: 40px;
     }
 
     body.dark-mode .header {
