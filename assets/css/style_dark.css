@@ -246,3 +246,19 @@ body.dark-mode .footer-basic .social > a:hover {
     /* opacity:0.9; */
     color: var(--header-background-color);
 }
+
+/*resume*/
+body.dark-mode .text-muted {
+    color: rgba(255, 255, 255, 0.4) !important
+}
+/*
+body.dark-mode .main-wrapper {
+    background: rgb(17, 24, 33);
+    color: rgba(255, 255, 255, 0.7);
+}
+*/
+body.dark-mode .theme-bg-light {
+    background: #151e29 !important;
+}
+/*resume*/
+
