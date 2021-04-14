@@ -262,3 +262,34 @@ body.dark-mode .theme-bg-light {
 }
 /*resume*/
 
+/* Start JOB */
+body.dark-mode .cd-container {
+    background: #151e29 !important;
+}
+
+body.dark-mode #cd-timeline::before {
+    background: var(--special-dark-colour-osc);
+}
+
+body.dark-mode .cd-timeline-img {
+    box-shadow: 0 0 0 4px var(--special-dark-colour-osc), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+body.dark-mode .cd-timeline-img {
+    background: var(--special-dark-colour_l);
+}
+
+body.dark-mode .cd-timeline-content {
+    background: #212d3c; /*#333c42;*/
+    border: 1px solid #151e29;
+}
+
+body.dark-mode .cd-timeline-content .timeline-content-info {
+    background: #1e2a30;
+}
+
+body.dark-mode .cd-timeline-content .content-skills li {
+    background: #324051;
+    border: 1px solid #212d3c;/*var(--header-background-color_p);*/
+}
+/* End JOB */
