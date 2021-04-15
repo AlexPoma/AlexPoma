@@ -258,13 +258,13 @@ body.dark-mode .main-wrapper {
 }
 */
 body.dark-mode .theme-bg-light {
-    background: #151e29 !important;
+    background: rgb(25, 35, 47) !important;
 }
 /*resume*/
 
 /* Start JOB */
 body.dark-mode .cd-container {
-    background: #151e29 !important;
+    background: /*#151e29*/rgb(25, 35, 47) !important;
 }
 
 body.dark-mode #cd-timeline::before {
@@ -281,7 +281,7 @@ body.dark-mode .cd-timeline-img {
 
 body.dark-mode .cd-timeline-content {
     background: #212d3c; /*#333c42;*/
-    border: 1px solid #151e29;
+    border: 1px solid rgb(25, 35, 47)/*#151e29*/;
 }
 
 body.dark-mode .cd-timeline-content .timeline-content-info {
@@ -291,5 +291,9 @@ body.dark-mode .cd-timeline-content .timeline-content-info {
 body.dark-mode .cd-timeline-content .content-skills li {
     background: #324051;
     border: 1px solid #212d3c;/*var(--header-background-color_p);*/
+}
+
+body.dark-mode .cd-timeline-content {
+    border: 1px solid #2d3a4a;
 }
 /* End JOB */
