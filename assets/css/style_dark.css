@@ -297,3 +297,15 @@ body.dark-mode .cd-timeline-content {
     border: 1px solid #2d3a4a;
 }
 /* End JOB */
+
+body.dark-mode .resume-section-heading:before {
+    background: var(--special-dark-colour-osc);
+}
+
+body.dark-mode a {
+    color: rgba(255, 255, 255, 0.7)
+}
+
+body.dark-mode a:hover {
+    color: rgba(255, 255, 255)
+}

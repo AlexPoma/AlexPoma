@@ -404,7 +404,7 @@ hr {
     background: #fff;
     /* transition: none; */
     /* z-index: -1; */
-} 
+}
 
 /*
 .page {
@@ -782,7 +782,7 @@ ul.main_skills li:before {
 .footer-basic .copyright, .footer-basic .text{
     margin-top: 15px;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     color: #8f8f8f;
     margin-bottom: 0;
 }
@@ -814,7 +814,7 @@ ul.main_skills li:before {
     font-size: 2.75rem;
     font-weight: 900;
     letter-spacing: 0.4rem;
-    color: #54B689
+    color: var(--font-header-color-hex);
 }
 
 .resume-tagline {
@@ -853,7 +853,7 @@ ul.main_skills li:before {
     padding-left: 1rem;
     font-size: 1.125rem;
     letter-spacing: 0.15rem;
-    color: #54B689
+    color: var(--font-header-color-hex);
 }
 
 .resume-section-heading:before {
@@ -861,7 +861,7 @@ ul.main_skills li:before {
     display: inline-block;
     width: 5px;
     height: 100%;
-    background: #54B689;
+    background: var(--font-header-color-rgva);
     position: absolute;
     left: 0;
     top: 0
@@ -900,7 +900,7 @@ a.resume-link {
 }
 
 a.resume-link:hover {
-    color: #54B689
+    color: var(--font-header-color-rgva);
 }
 
 /* .shadow-lg {
@@ -910,6 +910,25 @@ a.resume-link:hover {
 /*.config-panel #color-options li.list-inline-item {
     margin-right: 5px
 }*/
+.generate-pdf {
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: #403A3A;
+    cursor: pointer;
+  }
+.generate-pdf:hover {
+    color: #0B0A0A;
+
+  }
+.scale-cv .generate-pdf {
+    display: none;
+  }
+.generate-pdf {
+    display: inline-block;
+  }
 
 /*end resume*/
 
