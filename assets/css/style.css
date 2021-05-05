@@ -807,7 +807,7 @@ ul.main_skills li:before {
 /*start resume*/
 
 .resume-wrapper {
-    border: 1px solid rgba(0, 0, 0, 0.025)
+    border: 1px solid rgba(0, 0, 0, 0.025);
 }
 
 .resume-name {
@@ -896,7 +896,9 @@ ul.main_skills li:before {
 }
 
 a.resume-link {
-    color: #4f4f4f
+    color: #4f4f4f;
+    text-decoration: none;
+    transition: .3s;
 }
 
 a.resume-link:hover {
@@ -928,7 +930,9 @@ a.resume-link:hover {
   }
 .generate-pdf {
     display: inline-block;
+    transition: .3s;
   }
+
 
 /*end resume*/
 

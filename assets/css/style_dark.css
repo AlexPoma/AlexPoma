@@ -260,6 +260,10 @@ body.dark-mode .main-wrapper {
 body.dark-mode .theme-bg-light {
     background: rgb(25, 35, 47) !important;
 }
+
+body.dark-mode .resume-aside {
+    border-left: 1px solid rgba(255, 255, 255, 0.08)
+}
 /*resume*/
 
 /* Start JOB */
@@ -307,5 +311,13 @@ body.dark-mode a {
 }
 
 body.dark-mode a:hover {
+    color: rgba(255, 255, 255)
+}
+
+body.dark-mode .generate-pdf {
+    color: rgba(255, 255, 255, 0.7)
+}
+
+body.dark-mode .generate-pdf:hover {
     color: rgba(255, 255, 255)
 }
