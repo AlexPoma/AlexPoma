@@ -48,7 +48,7 @@
     <script src="assets/plugins/imagesloaded.pkgd.min.js" charset="utf-8"></script>
     <script src="assets/plugins/isotope.pkgd.min.js" charset="utf-8"></script>
     <script src="assets/plugins/tiny-slider/min/tiny-slider.js" charset="utf-8"></script>
-    <script src="assets/plugins/html2pdf.bundle.min.js" charset="utf-8"></script>
+    <!-- <script src="assets/plugins/html2pdf.bundle.min.js" charset="utf-8"></script> -->
 
     <script src="assets/js/translate.js" charset="utf-8"></script>
     <script src="assets/js/dark-mode.js" charset="utf-8"></script>
@@ -56,6 +56,8 @@
     <script src="assets/js/nav-bar.js" charset="utf-8"></script>
     <script src="assets/js/isotope.js" charset="utf-8"></script>
     <script src="assets/js/navigation-item.js" charset="utf-8"></script>
+    <script src="assets/js/download-pdf.js" charset="utf-8"></script>
+    <script src="assets/js/blog.js" charset="utf-8"></script>
 
 </head>
 
@@ -124,9 +126,9 @@
                         <li class="nav-item blog_page_item" data-page_flag="blog_page_flag">
                             <a class="nav-link" href="#blog"><i class="fas fa-blog fa-fw mr-2"></i><span class="lang" key="Blog"></span></a>
                         </li>
-                        <li class="nav-item contact_page_item" data-page_flag="contact_page_flag">
+                        <!-- <li class="nav-item contact_page_item" data-page_flag="contact_page_flag">
                             <a class="nav-link" href="#contact"><i class="fas fa-envelope-open-text fa-fw mr-2"></i><span class="lang" key="Contact"></span></a>
-                        </li>
+                        </li> -->
                     </ul>
 
                     <div class="dark-mode-toggle text-center w-100">
@@ -174,7 +176,7 @@
         <div  id="job">
             <div id="resume">
                 <div  id="blog">
-                    <div  id="contact">
+                    <!-- <div  id="contact"> -->
     <!--  -->
 
                         <!-- <div class="main-wrapper"> -->
@@ -198,7 +200,7 @@
                                                 <div class="mb-4">
                                                     <!-- <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a> -->
                                                     <!-- <a class="btn btn-secondary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline">View</span> Resume</a> -->
-                                                    <a class="btn btn-primary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline"></span><span class="lang" key="ViewResume"></span></a>
+                                                    <a class="btn btn-primary mb-3" href="#resume"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline"></span><span class="lang" key="ViewResume"></span></a>
                                                 </div>
                                             </div>
                                             <img class="profile-image mb-3 mb-lg-0 ml-lg-5 mr-md-0" src="assets/images/Profile/HazbinHotelCharlieHappy.gif" alt="">
@@ -1202,48 +1204,60 @@
 
                         <!-- <div class="main-wrapper">   -->
                             <div class="main-wrapper blog_page page_fixed" id="page_blog">
-                                <img src="assets/images/Profile/lego-programmer.jpg" alt="">
+
+                                <section class="mt-5 pb-5">
+                                    <div class="container">
+                    
+                                        <div class="row">
+                                            <!-- Content-->
+                                        <div class="col-xl-8 blog__slider">
+                                            
+                                        </div>
+
+                                    </div>
+                                </div>
+                                </section>
+
+                                <div class="container"><hr></div>
+
+                                <footer class="footer-basic text-center py-4">
+                                    <div class="container">
+                                        <div class="social">
+                                            <a href="https://twitter.com/Alex_Poma_P" target="_blank"><i class="fab fa-twitter fa-fw"></i></a>
+                                            <a href="https://www.linkedin.com/in/alexpoma/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                            <a href="https://github.com/AlexPoma" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a>
+                                            <a href="https://stackoverflow.com/users/5029460/alex-poma" target="_blank"><i class="fab fa-stack-overflow fa-fw"></i></a>
+                                            <a href="https://alexpoma.medium.com/" target="_blank"><i class="fab fa-medium fa-fw"></i></a>
+                                            <a href="https://www.kaggle.com/alexpomads" target="_blank"><i class="fab fa-kaggle fa-fw"></i></a>
+                                        </div>
+                                        <div>
+                                            <blockquote>
+                                                <i>
+                                                    <p class="text">&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                                                        blanditiis quod laudantium nobis, quibusdam, modi porro, quisquam magnam ipsum perferendis
+                                                        minus quo a minima quidem. Quibusdam repellat quidem alias commodi!&ldquo;</p>
+                                                </i>
+                                            </blockquote>
+                                            <p class="copyright">
+                                                <img src="assets/images/Profile/lego-programmer.jpg" alt=""> <a
+                                                    href="https://alexpoma.github.io/">Alex Poma</a> | <a
+                                                    href="https://github.com/AlexPoma/AlexPoma.github.io" target="_blank">Código de la página</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </footer>
+
                             </div>
                         <!-- </div> -->
 
                         <!-- <div class="main-wrapper">   -->
-                            <div class="main-wrapper contact_page page_fixed" id="page_contact">
-                                
-                                <!--  -->
-                                
-                                <div class="contact_container">
-                                    <div class="content">
-                                      <div class="image-box">
-                                       <img src="assets/images/Data-Analytics.png" alt="">
-                                      </div>
-                                    <form action="#">
-                                      <div class="topic">Send us a message</div>
-                                      <div class="input-box">
-                                        <input type="text" required>
-                                        <label>Enter your name</label>
-                                      </div>
-                                      <div class="input-box">
-                                        <input type="text" required>
-                                        <label>Enter your email</label>
-                                      </div>
-                                      <div class="message-box">
-                                        <input type="text" required>
-                                        <label>Enter your message</label>
-                                      </div>
-                                      <div class="input-box">
-                                        <input type="submit" value="Send Message">
-                                      </div>
-                                    </form>
-                                  </div>
-                                  </div>
+                            <!-- <div class="main-wrapper contact_page page_fixed" id="page_contact">
 
-                                <!--  -->
-
-                            </div>
+                            </div> -->
                         <!-- </div> -->
 
     <!--  -->
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
         </div>

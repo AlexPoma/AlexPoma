@@ -1076,3 +1076,131 @@ a.resume-link:hover {
 }
 */
 /*end contact*/
+
+/*Start Blog*/
+.post-header {
+    margin: 0 0 30px;
+}
+
+/*.post-header a {
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    transition: all 0.5s;
+}*/
+.post {
+    margin: 0 0 45px;
+}
+
+.post + .post {
+    border-top: 1px solid rgba(238, 238, 238, .7);
+    padding-top: 50px;
+}
+
+.post-title {
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+
+.post-title a {
+    color: #333;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    text-decoration: none;
+}
+
+.post-meta {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    opacity: .7;
+    color: #000;
+    font-weight: 600;
+}
+
+.post-meta > li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.post-meta > li:last-child {
+    margin-right: 0;
+}
+
+.post .post-meta a,
+.post-meta a {
+    color: #000;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+
+.post-preview {
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    margin: 0 0 25px;
+}
+
+.post-preview:hover {
+    opacity: .7;
+}
+
+.post-content p {
+    margin: 0 0 20px;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.post-content p {
+    margin: 0 0 20px;
+    line-height: 26px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    font-weight: 600;
+    padding: .6rem .8rem;
+}
+
+.btn-outline-custom {
+    background-color: transparent;
+    background-image: none;
+}
+
+.btn-outline-custom.active,
+.btn-outline-custom:hover,
+.btn-outline-custom:active,
+.show>.btn-outline-custom.dropdown-toggle {
+    color: #fff;
+}
+
+.btn-outline-custom.focus,
+.btn-outline-custom:focus {
+    box-shadow: none;
+}
+
+.post-header a:hover
+, .post-meta a:hover
+, .post-meta a:focus
+, .post-title a:hover
+, .btn-outline-custom {
+    color: #0db3e3;
+}
+
+.btn-outline-custom:hover
+, .btn-outline-custom:active {
+    background-color: #0db3e3;
+}
+
+.btn-outline-custom:hover
+, .btn-outline-custom:active
+, .btn-outline-custom {
+    border-color: #0db3e3;
+}
+
+/*End Blog*/

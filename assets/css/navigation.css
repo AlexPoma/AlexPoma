@@ -33,7 +33,7 @@ header{
     /* max-width: 100vh; */
 }
 
-#page_job, #page_resume, #page_blog, #page_contact {
+#page_job, #page_resume, #page_blog/*, #page_contact*/ {
     transform: translateX(100%);
     /* transition: none; */
     /* position: fixed; */
@@ -42,7 +42,7 @@ header{
     
 }
 
-#job:target #page_job, #resume:target #page_resume, #blog:target #page_blog, #contact:target #page_contact {
+#job:target #page_job, #resume:target #page_resume, #blog:target #page_blog/*, #contact:target #page_contact*/ {
     transform: translateX(0%);
     /* transform: translatey(0%); */
     /* transition-delay: 0.4s; */
@@ -53,7 +53,7 @@ header{
 
 
 
-#job:target #page_aboutme, #resume:target #page_aboutme, #blog:target #page_aboutme, #contact:target #page_aboutme {
+#job:target #page_aboutme, #resume:target #page_aboutme, #blog:target #page_aboutme/*, #contact:target #page_aboutme*/ {
     overflow: hidden;
     max-height: 100vh;
     /* width: 100%; */

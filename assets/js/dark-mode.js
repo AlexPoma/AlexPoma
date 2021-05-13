@@ -2,20 +2,16 @@ $(document).ready(function() {
 
     // localStorage.clear();
     if(!localStorage.getItem("DarkModeVar")){
-        localStorage.setItem("DarkModeVar","Ligth");
+        localStorage.setItem("DarkModeVar","Light");
     }
     
-    var a_link = document.getElementById('resume-button_href');
-
     let def = localStorage.getItem("DarkModeVar");
     
     if (def == "Dark"){
         $('body').addClass('dark-mode');
-        a_link.setAttribute("href", "assets/pdf/resume-dark.pdf");
     }
     else{
         $('body').removeClass('dark-mode');
-        a_link.setAttribute("href", "assets/pdf/resume-light.pdf");
     }
 
     document.getElementById("darkmode").checked = (localStorage.getItem("DarkModeVar")=="Dark")?true:false;
@@ -26,13 +22,11 @@ $(document).ready(function() {
 		if ($(this).is(':checked')) {
 			$('body').addClass('dark-mode');
 			localStorage.setItem("DarkModeVar","Dark");
-            a_link.setAttribute("href", "assets/pdf/resume-dark.pdf");
 		} 
         else {
 			$('body').removeClass('dark-mode');
-			localStorage.setItem("DarkModeVar","Ligth");
-            a_link.setAttribute("href", "assets/pdf/resume-light.pdf");
+			localStorage.setItem("DarkModeVar","Light");
 		}
         // console.log(localStorage.getItem("DarkModeVar"));
 	});
-});	
+});
