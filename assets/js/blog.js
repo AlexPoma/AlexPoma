@@ -22,6 +22,7 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ale
 
         // Put things in right spots of markup
         let output = '';
+        const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         
         posts.forEach((item) => {
             
@@ -31,19 +32,20 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ale
                 tags_list_prev += `${element}, `
                 );
 
-            const words = tags_list_prev.substring(0,tags_list_prev.length-2).split(" ");
+            const words = tags_list_prev.substring(0,tags_list_prev.length-2).replaceAll("-"," ").split(" ");
             
             for (let i = 0; i < words.length; i++) {
                 words[i] = words[i][0].toUpperCase() + words[i].substr(1);
             }
-            // words.join(" ");
             
-            const tags_txt = words.join(" ").split("-");
+            let tags_list = words.join(" ");
+
+            // const tags_txt = words.join(" ").split("-");
             
-            for (let i = 0; i < tags_txt.length; i++) {
-                tags_txt[i] = tags_txt[i][0].toUpperCase() + tags_txt[i].substr(1);
-            }
-            let tags_list = tags_txt.join("-");
+            // for (let i = 0; i < tags_txt.length; i++) {
+            //     tags_txt[i] = tags_txt[i][0].toUpperCase() + tags_txt[i].substr(1);
+            // }
+            // let tags_list = tags_txt.join("-");
 
             output += `
             <article class="post">
@@ -51,61 +53,23 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ale
                 <div class="post-header">
                     <h2 class="post-title"><a href="${item.link}" target="_blank">${item.title}</a></h2>
                     <ul class="post-meta">
-                        <li><i class="far fa-calendar-minus"></i> ${shortenText(item.pubDate, 0, 10)}</li>
+                        <li><i class="far fa-calendar-minus"></i> ${monthNames[parseInt(shortenText(item.pubDate, 5, 7))-1]} ${shortenText(item.pubDate, 8, 10)}, ${shortenText(item.pubDate, 0, 4)}</li>
                         <li><i class="fas fa-tags"></i> ${tags_list}</li>
                         </li>
                     </ul>
                 </div>
 
                 <div class="post-preview">
-                    <a href="${item.link}"><img src="${item.thumbnail}" alt="" class="img-fluid rounded"></a>
+                    <a href="${item.link}" target="_blank"><img class="img-fluid rounded" src="${item.thumbnail}" alt=""></a>
                 </div>
 
                 <div class="post-content">
                     <p>${item.content.split("</p>")[0].split("<p>")[1]}</p>
                 </div>
 
-                <div><a href="${item.link}" class="btn btn-outline-custom">Read More <i class="mdi mdi-arrow-right"></i></a></div>
+                <div><a href="${item.link} target="_blank"" class="btn btn-outline-custom">Read More <i class="fas fa-angle-double-right"></i></a></div>
 
             </article>`
-
-            // `
-            // <li class="blog__post">
-            // <img src="${item.thumbnail}" class="blog__topImg"></img>
-            // <div class="blog__content">
-            //     <div class="blog_preview">
-            //         <a href="${item.link}" target="_blank">
-            //             <h2 class="blog__title">${item.title}</h2>
-            //         <a/>
-            //             <p class="blog__intro">${item.content.split("</p>")[0].split("<p>")[1]}</p>
-            //         </div>
-            //         <!-- <hr> -->
-            //         <div class="blog__info">
-            //             <span class="blog__author">${item.author}</span>
-            //             <span class="blog__date">${shortenText(item.pubDate, 0, 10)}</span>
-            //         </div>
-            //     </div>
-            // </li>`
-
-            // console.log(item.title);
-
-            // `
-            // <li class="blog__post">
-            //     <a href="${item.link}">
-            //     <img src="${item.thumbnail}" class="blog__topImg"></img>
-            //     <div class="blog__content">
-            //         <div class="blog_preview">
-            //             <h2 class="blog__title">${shortenText(item.title, 0, 30) + '...'}</h2>
-            //             <p class="blog__intro">${'...' + shortenText(toText(item.content), 60, 300) + '...'}</p>
-            //         </div>
-            //         <hr>
-            //         <div class="blog__info">
-            //             <span class="blog__author">${item.author}</span>
-            //             <span class="blog__date">${shortenText(item.pubDate, 0, 10)}</span>
-            //         </div>
-            //     </div>
-            //     <a/>
-            // </li>`
 
         })
 
