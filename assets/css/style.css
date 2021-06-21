@@ -92,6 +92,7 @@ hr {
 
 .header .collapse_nav {
     overflow-y: auto;
+    z-index: 5;
     /* padding-bottom: 100px; */
 }
 
@@ -255,7 +256,7 @@ hr {
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s;
-    z-index: 1;
+    z-index: 4;
 }
 
 .nav--open .nav__overlay {
@@ -402,8 +403,6 @@ hr {
     /* float: left; */
     /* margin-right: 280px; */
     background: #fff;
-    /* transition: none; */
-    /* z-index: -1; */
 }
 
 /*
@@ -450,7 +449,8 @@ hr {
 }
 
 .navButton {
-    z-index: 1;
+    z-index: 3;
+    /* padding-right: 5px; */
 }
 
 ul.main_skills {
@@ -936,7 +936,7 @@ a.resume-link:hover {
 
 /*strat contact*/
 
-.contact_container{
+/* .contact_container{
   z-index: 12;
   max-width: 1050px;
   width: 100%;
@@ -1054,7 +1054,7 @@ a.resume-link:hover {
 }
 .content .input-box input[type="submit"]:hover{
   background-color: #d43ddb;
-}
+} */
 /*@media (max-width:1000px) {
   .content .image-box{
     max-width: 70%;

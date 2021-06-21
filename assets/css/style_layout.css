@@ -79,6 +79,8 @@
 
     .main-wrapper {
         padding-top: 40px;
+        max-width: none !important;
+        right: none !important;
     }
 
     body.dark-mode .header {
