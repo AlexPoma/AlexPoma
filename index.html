@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <!-- Titulo -->
     <title>Alex Poma</title>
 
@@ -39,18 +38,15 @@
     <link id="theme-style" rel="stylesheet" href="assets/css/navigation.css">
     <link id="theme-style" rel="stylesheet" href="assets/css/style_job.css">
     <link id="theme-style" rel="stylesheet" href="assets/css/animations.css">
-
     <!-- <link id="theme-style" rel="stylesheet" href="assets/css/shadow.css"> -->
 
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- JScript -->
-    <!-- <script src="assets/plugins/tiny-slider/min/tiny-slider.js" charset="utf-8"></script> -->
     <script src="assets/plugins/imagesloaded.pkgd.min.js" charset="utf-8"></script>
     <script src="assets/plugins/isotope.pkgd.min.js" charset="utf-8"></script>
     <script src="assets/plugins/tiny-slider/min/tiny-slider.js" charset="utf-8"></script>
-    <!-- <script src="assets/plugins/html2pdf.bundle.min.js" charset="utf-8"></script> -->
 
     <script src="assets/js/translate.js" charset="utf-8"></script>
     <script src="assets/js/dark-mode.js" charset="utf-8"></script>
@@ -60,7 +56,7 @@
     <script src="assets/js/navigation-item.js" charset="utf-8"></script>
     <script src="assets/js/download-pdf.js" charset="utf-8"></script>
     <script src="assets/js/blog.js" charset="utf-8"></script>
-
+    <!-- <script src="assets/js/reduce-code.js" charset="utf-8"></script> -->
 </head>
 
 <body class="dark-mode preload">
@@ -68,28 +64,21 @@
     <!-- Start Header -->
     <header class="header text-center">
         <div>
-            <!--//start force-overflow-->
-
             <h1 class="blog-name pt-lg-4 mb-0 navbarnameorg">
                 <a href="index.html"><span class="lang" key="Name"></span></a>
             </h1>
 
             <!-- {-sm|-md|-lg|-xl|-xxl} xl => 1200-->
-            <!-- <nav class="navbar navbar-expand-lg navbar-dark"> -->
             <nav class="navbar navbar-expand-lg navbar-dark collapse_navbarBackground">
                 <button class="navButton navbar-toggler fixed-top" type="button" id="id_nav_bar" data-toggle="collapse"
                     data-target="#navigation" aria-controls="navigation" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <!-- <span class="navbar-toggler-icon"></span> -->
                     <span><i class="fas fa-bars"></i></span>
                 </button>
 
-
-                <!-- <div id="navigation" class="collapse navbar-collapse flex-column"> -->
                 <div id="navigation" class="navbar-collapse flex-column collapse_nav">
                     <div class="profile-section pt-3 pt-lg-0">
                         <!--//start profile-section-->
-                        <!-- <div class='navbar-nav flex-column'> -->
                         <h1 class="blog-name pt-lg-4 mb-0 navbar-nav flex-column navbarname">
                             <a href="index.html"><span class="lang" key="Name"></span></a>
                         </h1>
@@ -97,13 +86,13 @@
                         <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/Profile/Sombra.gif"
                             alt="image">
 
+                        <!--//start bio-->
                         <div class="bio mb-3 lang" key="Biografia">
-                            <!--//start bio-->
                         </div>
                         <!--//end bio-->
 
+                        <!--//start social-list-->
                         <ul class="social-list list-inline py-2 mx-auto">
-                            <!--//start social-list-->
                             <li class="list-inline-item"><a href="https://twitter.com/Alex_Poma_P" target="_blank"><i
                                         class="fab fa-twitter fa-fw"></i></a></li>
                             <li class="list-inline-item"><a href="https://www.linkedin.com/in/alexpoma/"
@@ -122,10 +111,8 @@
                     </div>
                     <!--//end profile-section-->
 
-                    <!-- <ul class="navbar-nav flex-column text-left"> -->
                     <ul class="nav_list_item navbar-nav flex-column text-left">
                         <li class="nav-item aboutme_page_item active" data-page_flag="aboutme_page_flag">
-                            <!-- <li class="nav-item"> -->
                             <a class="nav-link" href="#"><i class="fas fa-user fa-fw mr-2"></i><span class="lang"
                                     key="About"></span><span class="sr-only">(current)</span></a>
                         </li>
@@ -141,32 +128,18 @@
                             <a class="nav-link" href="#blog"><i class="fas fa-blog fa-fw mr-2"></i><span class="lang"
                                     key="Blog"></span></a>
                         </li>
-                        <!-- <li class="nav-item contact_page_item" data-page_flag="contact_page_flag">
-                            <a class="nav-link" href="#contact"><i class="fas fa-envelope-open-text fa-fw mr-2"></i><span class="lang" key="Contact"></span></a>
-                        </li> -->
                     </ul>
 
                     <div class="dark-mode-toggle text-center w-100">
-                        <!--//start dark-mode-toggle-->
-
                         <hr class="mb-4">
-                        <!-- <h4 class="toggle-name mb-3"><i class="fas fa-adjust mr-1"></i>Dark Mode</h4> -->
 
                         <input class="toggle" id="darkmode" type="checkbox">
-                        <!-- <label class="toggle-btn mx-auto mb-0" for="darkmode"></label> -->
                         <label class="label-darkmode" for="darkmode">
                             <i class="fas fa-sun"></i>
                             <i class="fas fa-moon"></i>
                             <div class="ball-darkmode"></div>
                         </label>
-
-                        <!--</div>-->
-                        <!--//end dark-mode-toggle-->
-                        <!--<div class="language-toggle text-center w-100">-->
-                        <!--//start translate-toggle-->
-                        <!-- <h4 class="toggle-name mb-3">Language</h4> -->
                         <input class="toggle-lang translate" id="languagemode" type="checkbox">
-                        <!-- <label class="toggle-btn mx-auto mb-0" for="darkmode"></label> -->
                         <label class="label-langmode" for="languagemode">
                             <i class="spanish">es</i>
                             <i class="english">en</i>
@@ -174,37 +147,26 @@
                         </label>
 
                     </div>
-                    <!--//End translate-toggle-->
-
                 </div>
                 <div class="nav__overlay"></div>
             </nav>
         </div>
-        <!--//End force-overflow-->
     </header>
     <!-- End Header -->
 
     <div class="content-area">
         <div class="animated-sections">
-
             <div class="main-wrapper aboutme_page page_fixed" id="page_aboutme">
-
+                <!--//Start About-me-section-->
                 <section class="about-me-section p-3 p-lg-5 theme-bg-light">
-                    <!--//Start About-me-section-->
                     <div class="container">
                         <div class="profile-teaser media flex-column flex-lg-row">
 
                             <div class="media-body">
-                                <h2 class="name font-weight-bold mb-1 lang" key="Name"></h2>
+                                <h2 class="name font-weight-bold mb-1 lang" key="Name_AboutMe"></h2>
                                 <div class="tagline mb-3 lang" key="Career"></div>
-
-                                <!-- <div class="bio mb-4">I'm a software engineer specialised in frontend and backend development for complex scalable web apps. I write about software development on <a class="link-on-bg" href="blog-home.html">my blog</a>. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="projects.html">portfolio</a> and <a class="link-on-bg" href="resume.html">online resume</a>. -->
-                                <div class="bio mb-4 lang" key="AboutMe">
-                                </div>
-
+                                <div class="bio mb-4 lang" key="AboutMe"></div>
                                 <div class="mb-4">
-                                    <!-- <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a> -->
-                                    <!-- <a class="btn btn-secondary mb-3" href="resume.html"><i class="fas fa-file-alt mr-2"></i><span class="d-none d-md-inline">View</span> Resume</a> -->
                                     <a class="btn btn-outline-custom mb-3" href="#resume"><i
                                             class="fas fa-file-alt mr-2"></i><span
                                             class="d-none d-md-inline"></span><span class="lang"
@@ -218,34 +180,29 @@
                 </section>
                 <!--//End About-me-section-->
 
-                <!-- <div class="container"><hr></div> -->
-
                 <section class="software-section px-3 py-5 p-md-5">
                     <div class="container">
 
-                        <h2 class="section-title font-weight-bold mb-3">Software Skills</h2>
-                        <div class="section-intro mb-5">
-                            I have more than 10 years' experience building software for clients all over the world.
-                            Below is a quick overview of my main technical skill sets and technologies I use. Want to
-                            find out more about my experience? Check out my <a href="resume.html">online resume</a> and
-                            <a href="portfolio.html">project portfolio</a>.
-                        </div>
+                        <h2 class="section-title font-weight-bold mb-3 lang" key="Soft_Skill"></h2>
+                        <div class="section-intro mb-5 lang" key="Soft_Skill_Desc"></div>
 
                         <div class="text-center">
+                            <!--//filters-->
                             <ul id="filters" class="filters mb-1 mx-auto pl-0">
-                                <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
-                                <li class="type mb-3 mb-lg-0" data-filter=".DataBase">Base de Datos</li>
-                                <li class="type mb-3 mb-lg-0" data-filter=".BigData">Big Data</li>
-                                <li class="type mb-3 mb-lg-0" data-filter=".DataAnalytics">Analisis de Datos</li>
-                                <li class="type mb-3 mb-lg-0" data-filter=".Develop">Programación</li>
-                                <li class="type mb-3 mb-lg-0" data-filter=".Office">Ofimatica</li>
-                                <li class="type mb-3 mb-lg-0" data-filter=".OS">Sistemas Operativos</li>
+                                <li class="type active mb-3 mb-lg-0 lang" key="Item_All" data-filter=".All"></li>
+                                <li class="type mb-3 mb-lg-0 lang" key="Item_DataBase" data-filter=".DataBase"></li>
+                                <li class="type mb-3 mb-lg-0 lang" key="Item_BigData" data-filter=".BigData"></li>
+                                <li class="type mb-3 mb-lg-0 lang" key="Item_DataAnaly" data-filter=".DataAnalytics"></li>
+                                <li class="type mb-3 mb-lg-0 lang" key="Item_Dev" data-filter=".Develop"></li>
+                                <li class="type mb-3 mb-lg-0 lang" key="Item_Off" data-filter=".Office"></li>
+                                <li class="type mb-3 mb-lg-0 lang" key="Item_OS" data-filter=".OS"></li>
                             </ul>
                             <!--//filters-->
                         </div>
 
                         <div class="project-cards row isotope">
-                            <div class="isotope-item card-img-holder Ligth col-try-8 col-sm-2 col-3 DataBase">
+
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All DataBase">
                                 <div class="Ligth">
                                     <img src="assets/images/SofwareSkills/Msqlserver.png" class="card-img" alt="image">
                                 </div>
@@ -255,31 +212,31 @@
                                 </div>
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All BigData">
                                 <img src="assets/images/SofwareSkills/AWS.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All DataAnalytics">
                                 <img src="assets/images/SofwareSkills/PowerBI.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All BigData">
                                 <img src="assets/images/SofwareSkills/Azure.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All DataAnalytics">
                                 <img src="assets/images/SofwareSkills/SSIS_SSAS_SSRS.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All DataAnalytics">
                                 <img src="assets/images/SofwareSkills/Anaconda.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All BigData">
                                 <img src="assets/images/SofwareSkills/Apache_Hive.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All Develop">
                                 <div class="Ligth">
                                     <img src="assets/images/SofwareSkills/Git.png" class="card-img" alt="image">
                                 </div>
@@ -288,15 +245,15 @@
                                 </div>
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 BigData">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All BigData">
                                 <img src="assets/images/SofwareSkills/Hadoop.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataAnalytics">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All DataAnalytics">
                                 <img src="assets/images/SofwareSkills/Jupyter.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder Ligth col-try-8 col-sm-2 col-3 Office">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All Office">
                                 <div class="Ligth">
                                     <img src="assets/images/SofwareSkills/LibreOffice.png" class="card-img" alt="image">
                                 </div>
@@ -306,40 +263,40 @@
                                 </div>
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All DataBase">
                                 <img src="assets/images/SofwareSkills/MongoDB.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All DataBase">
                                 <img src="assets/images/SofwareSkills/MySQL.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All Develop">
                                 <img src="assets/images/SofwareSkills/VisualStudioCode.png" class="card-img"
                                     alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Office">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All Office">
                                 <img src="assets/images/SofwareSkills/Office.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All DataBase">
                                 <img src="assets/images/SofwareSkills/Oracle.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 DataBase">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All DataBase">
                                 <img src="assets/images/SofwareSkills/Postgresql.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All Develop">
                                 <img src="assets/images/SofwareSkills/RStudio.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 OS">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All OS">
                                 <img src="assets/images/SofwareSkills/Ubuntu.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder Ligth col-try-8 col-sm-2 col-3 Develop">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All Develop">
                                 <div class="Ligth">
                                     <img src="assets/images/SofwareSkills/Spyder.png" class="card-img" alt="image">
                                 </div>
@@ -348,13 +305,14 @@
                                 </div>
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 Develop">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All Develop">
                                 <img src="assets/images/SofwareSkills/VisualStudio.png" class="card-img" alt="image">
                             </div>
 
-                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 OS">
+                            <div class="isotope-item card-img-holder col-try-8 col-sm-2 col-3 All OS">
                                 <img src="assets/images/SofwareSkills/Windows.png" class="card-img" alt="image">
                             </div>
+
                         </div>
                     </div>
                 </section>
@@ -365,9 +323,11 @@
 
                 <section class="coding-section p-3 p-lg-5">
                     <div class="container">
-                        <h2 class="section-title font-weight-bold mb-5">Codding Skills</h2>
+                        <h2 class="section-title font-weight-bold mb-5 lang" key="Cod_Skill"></h2>
+
                         <div class="coding-carousel-container">
                             <div class="coding-carousel tiny-slider">
+
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -381,7 +341,7 @@
                                         <div class="name">SQL</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -395,7 +355,7 @@
                                         <div class="name">Python</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -409,7 +369,7 @@
                                         <div class="name">R</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -423,7 +383,7 @@
                                         <div class="name">DAX</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -437,7 +397,7 @@
                                         <div class="name">MDX</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -451,7 +411,7 @@
                                         <div class="name">Java</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -465,7 +425,7 @@
                                         <div class="name">PlSql</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -479,7 +439,7 @@
                                         <div class="name">Shell</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -493,7 +453,7 @@
                                         <div class="name">VB.net</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -507,7 +467,7 @@
                                         <div class="name">C#</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -521,7 +481,7 @@
                                         <div class="name">C++</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -535,7 +495,7 @@
                                         <div class="name">HTML</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -549,7 +509,7 @@
                                         <div class="name">CSS</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -563,7 +523,7 @@
                                         <div class="name">JScript</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -577,7 +537,7 @@
                                         <div class="name">JSON</div>
                                     </div>
                                 </div>
-                                <!--//item-->
+                                
                                 <div class="item">
                                     <div class="item-inner">
                                         <div class="source-profile">
@@ -591,7 +551,6 @@
                                         <div class="name">XML</div>
                                     </div>
                                 </div>
-                                <!--//item-->
                             </div>
                             <!--//testimonial-carousel-->
                         </div>
@@ -600,19 +559,15 @@
                     <!--//container-->
                 </section>
                 <!--//testimonials-section-->
-
+            
                 <div class="container">
                     <hr>
                 </div>
 
                 <section class="language-section p-3 p-lg-5">
                     <div class="container">
-                        <h2 class="section-title font-weight-bold mb-3">Language Skills</h2>
-                        <div class="section-intro mb-5">I have more than 10 years' experience building software for
-                            clients all over the world. Below is a quick overview of my main technical skill sets and
-                            technologies I use. Want to find out more about my experience? Check out my <a
-                                href="resume.html">online resume</a> and <a href="portfolio.html">project portfolio</a>.
-                        </div>
+                        <h2 class="section-title font-weight-bold mb-3 lang" key="Lang_Skill"></h2>
+                        <div class="section-intro mb-5 lang" key="Lang_Skill_Desc"></div>
 
                         <div class="row">
                             <div class="esp col-sm-4">
@@ -623,7 +578,7 @@
                                         <circle class="progress" cx="74" cy="74" r="70"></circle>
                                     </svg>
                                 </div>
-                                <div class="text_desc">Español</div>
+                                <div class="text_desc lang" key="Esp"></div>
                             </div>
                             <div class="eng col-sm-4">
                                 <div class="circle-big">
@@ -633,7 +588,7 @@
                                         <circle class="progress" cx="74" cy="74" r="70"></circle>
                                     </svg>
                                 </div>
-                                <div class="text_desc">Ingles</div>
+                                <div class="text_desc lang" key="Eng"></div>
                             </div>
                             <div class="br col-sm-4">
                                 <div class="circle-big">
@@ -643,7 +598,7 @@
                                         <circle class="progress" cx="74" cy="74" r="70"></circle>
                                     </svg>
                                 </div>
-                                <div class="text_desc">Portugues</div>
+                                <div class="text_desc lang" key="Ptg"></div>
                             </div>
                         </div>
                     </div>
@@ -654,21 +609,16 @@
                     <hr>
                 </div>
 
-
                 <section class="testimonials-section p-3 p-lg-5">
                     <div class="container">
-                        <h2 class="section-title font-weight-bold mb-5">Testimonials</h2>
+                        <h2 class="section-title font-weight-bold mb-5 lang" key="Testimonials_Title"></h2>
 
                         <div class="testiomonial-carousel-container">
                             <div class="testimonial-carousel  tiny-slider">
-                                <div class="item">
+                                <div class="item _1_">
                                     <div class="item-inner">
                                         <div class="quote-holder">
-                                            <blockquote class="quote-content">
-                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet,
-                                                consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                                                massa. Cum sociis natoque penatibus et magnis.
-                                            </blockquote>
+                                            <blockquote class="quote-content lang" key="1_Item_Desc"></blockquote>
                                         </div>
                                         <!--//quote-holder-->
                                         <div class="source-holder">
@@ -676,8 +626,8 @@
                                                 <img src="assets/images/Testimonials/Person_1.jpg" alt="image" />
                                             </div>
                                             <div class="meta">
-                                                <div class="name">Brandon James</div>
-                                                <div class="info">Project Manager, Google</div>
+                                                <div class="name lang" key="1_Item_Name"></div>
+                                                <div class="info lang" key="1_Item_Comp"></div>
                                                 <div class="socials">
                                                     <a href="#" target="_blank"><i
                                                             class="fab fa-facebook-square"></i></a>
@@ -692,14 +642,10 @@
                                     <!--//item-inner-->
                                 </div>
                                 <!--//item-->
-                                <div class="item">
+                                <div class="item _2_">
                                     <div class="item-inner">
                                         <div class="quote-holder">
-                                            <blockquote class="quote-content">
-                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet,
-                                                consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                                                massa. Cum sociis natoque penatibus et magnis.
-                                            </blockquote>
+                                            <blockquote class="quote-content lang" key="2_Item_Desc"></blockquote>
                                         </div>
                                         <!--//quote-holder-->
                                         <div class="source-holder">
@@ -707,8 +653,8 @@
                                                 <img src="assets/images/Testimonials/Person_2.jpg" alt="image" />
                                             </div>
                                             <div class="meta">
-                                                <div class="name">Brandon James</div>
-                                                <div class="info">Project Manager, Google</div>
+                                                <div class="name lang" key="2_Item_Name"></div>
+                                                <div class="info lang" key="2_Item_Comp"></div>
                                                 <div class="socials">
                                                     <a href="#" target="_blank"><i
                                                             class="fab fa-facebook-square"></i></a>
@@ -723,14 +669,10 @@
                                     <!--//item-inner-->
                                 </div>
                                 <!--//item-->
-                                <div class="item">
+                                <div class="item _3_">
                                     <div class="item-inner">
                                         <div class="quote-holder">
-                                            <blockquote class="quote-content">
-                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet,
-                                                consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                                                massa. Cum sociis natoque penatibus et magnis.
-                                            </blockquote>
+                                            <blockquote class="quote-content lang" key="3_Item_Desc"></blockquote>
                                         </div>
                                         <!--//quote-holder-->
                                         <div class="source-holder">
@@ -738,8 +680,8 @@
                                                 <img src="assets/images/Testimonials/Person_3.jpg" alt="image" />
                                             </div>
                                             <div class="meta">
-                                                <div class="name">Brandon James</div>
-                                                <div class="info">Project Manager, Google</div>
+                                                <div class="name lang" key="3_Item_Name"></div>
+                                                <div class="info lang" key="3_Item_Comp"></div>
                                                 <div class="socials">
                                                     <a href="#" target="_blank"><i
                                                             class="fab fa-facebook-square"></i></a>
@@ -754,14 +696,10 @@
                                     <!--//item-inner-->
                                 </div>
                                 <!--//item-->
-                                <div class="item">
+                                <div class="item _4_">
                                     <div class="item-inner">
                                         <div class="quote-holder">
-                                            <blockquote class="quote-content">
-                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet,
-                                                consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                                                massa. Cum sociis natoque penatibus et magnis.
-                                            </blockquote>
+                                            <blockquote class="quote-content lang" key="4_Item_Desc"></blockquote>
                                         </div>
                                         <!--//quote-holder-->
                                         <div class="source-holder">
@@ -769,8 +707,8 @@
                                                 <img src="assets/images/Testimonials/Person_4.jpg" alt="image" />
                                             </div>
                                             <div class="meta">
-                                                <div class="name">Brandon James</div>
-                                                <div class="info">Project Manager, Google</div>
+                                                <div class="name lang" key="4_Item_Name"></div>
+                                                <div class="info lang" key="4_Item_Comp"></div>
                                                 <div class="socials">
                                                     <a href="#" target="_blank"><i
                                                             class="fab fa-facebook-square"></i></a>
@@ -785,14 +723,10 @@
                                     <!--//item-inner-->
                                 </div>
                                 <!--//item-->
-                                <div class="item">
+                                <div class="item _5_">
                                     <div class="item-inner">
                                         <div class="quote-holder">
-                                            <blockquote class="quote-content">
-                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet,
-                                                consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                                                massa. Cum sociis natoque penatibus et magnis.
-                                            </blockquote>
+                                            <blockquote class="quote-content lang" key="5_Item_Desc"></blockquote>
                                         </div>
                                         <!--//quote-holder-->
                                         <div class="source-holder">
@@ -800,8 +734,8 @@
                                                 <img src="assets/images/Testimonials/Person_5.jpg" alt="image" />
                                             </div>
                                             <div class="meta">
-                                                <div class="name">Brandon James</div>
-                                                <div class="info">Project Manager, Google</div>
+                                                <div class="name lang" key="5_Item_Name"></div>
+                                                <div class="info lang" key="5_Item_Comp"></div>
                                                 <div class="socials">
                                                     <a href="#" target="_blank"><i
                                                             class="fab fa-facebook-square"></i></a>
@@ -816,14 +750,10 @@
                                     <!--//item-inner-->
                                 </div>
                                 <!--//item-->
-                                <div class="item">
+                                <div class="item _6_">
                                     <div class="item-inner">
                                         <div class="quote-holder">
-                                            <blockquote class="quote-content">
-                                                Simon is a brilliant software engineer! Lorem ipsum dolor sit amet,
-                                                consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
-                                                massa. Cum sociis natoque penatibus et magnis.
-                                            </blockquote>
+                                            <blockquote class="quote-content lang" key="6_Item_Desc"></blockquote>
                                         </div>
                                         <!--//quote-holder-->
                                         <div class="source-holder">
@@ -831,8 +761,8 @@
                                                 <img src="assets/images/Testimonials/Person_6.jpg" alt="image" />
                                             </div>
                                             <div class="meta">
-                                                <div class="name">Brandon James</div>
-                                                <div class="info">Project Manager, Google</div>
+                                                <div class="name lang" key="6_Item_Name"></div>
+                                                <div class="info lang" key="6_Item_Comp"></div>
                                                 <div class="socials">
                                                     <a href="#" target="_blank"><i
                                                             class="fab fa-facebook-square"></i></a>
@@ -856,18 +786,9 @@
                 </section>
                 <!--//testimonials-section-->
 
-
-
-
-
                 <div class="container">
                     <hr>
                 </div>
-
-                <!-- <footer class="footer text-center py-4">
-                                    <small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
-                                </footer> -->
-                <!-- <div class="footer-basic"> -->
 
                 <footer class="footer-basic text-center py-4">
                     <div class="container">
@@ -888,35 +809,25 @@
                         <div>
                             <blockquote>
                                 <i>
-                                    <p class="text">&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Incidunt
-                                        blanditiis quod laudantium nobis, quibusdam, modi porro, quisquam magnam ipsum
-                                        perferendis
-                                        minus quo a minima quidem. Quibusdam repellat quidem alias commodi!&ldquo;</p>
+                                    <p class="text">&ldquo;<span class="lang" key="Footer_Quote"></span>&ldquo;</p>
                                 </i>
                             </blockquote>
                             <p class="copyright">
                                 <img src="assets/images/Profile/lego-programmer.jpg" alt=""> <a
-                                    href="https://alexpoma.github.io/">Alex Poma</a> | <a
-                                    href="https://github.com/AlexPoma/AlexPoma.github.io" target="_blank">Código de la
-                                    página</a>
+                                    href="https://alexpoma.github.io/" class="lang" key="Footer_Author"></a> | <a
+                                    href="https://github.com/AlexPoma/AlexPoma.github.io" target="_blank" class="lang" key="Footer_CodePage"></a>
                             </p>
                         </div>
                     </div>
                 </footer>
-
             </div>
 
             <div class="main-wrapper job_page page_fixed" id="page_job">
-
-                <section class="testimonials-section p-3 p-lg-5">
-                    <!--  -->
+                <section class="jobs-section p-3 p-lg-5">
                     <section id="cd-timeline" class="cd-container shadow-lg">
-
                         <div class="cd-timeline-block">
                             <div class="cd-timeline-img cd-picture">
                             </div>
-
                             <div class="cd-timeline-content">
                                 <div class="emp_name">
                                     <img src="assets/images/Profile/lego-programmer.jpg" alt="image">
@@ -980,20 +891,12 @@
                                 </ul>
                             </div> <!-- cd-timeline-content -->
                         </div> <!-- cd-timeline-block -->
-
-
                     </section> <!-- cd-timeline -->
-                    <!--  -->
                 </section>
                 <div class="container">
                     <hr>
                 </div>
 
-                <!-- <footer class="footer text-center py-4">
-                                    <small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
-                                </footer> -->
-                <!-- <div class="footer-basic"> -->
-
                 <footer class="footer-basic text-center py-4">
                     <div class="container">
                         <div class="social">
@@ -1013,18 +916,13 @@
                         <div>
                             <blockquote>
                                 <i>
-                                    <p class="text">&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Incidunt
-                                        blanditiis quod laudantium nobis, quibusdam, modi porro, quisquam magnam ipsum
-                                        perferendis
-                                        minus quo a minima quidem. Quibusdam repellat quidem alias commodi!&ldquo;</p>
+                                    <p class="text">&ldquo;<span class="lang" key="Footer_Quote"></span>&ldquo;</p>
                                 </i>
                             </blockquote>
                             <p class="copyright">
                                 <img src="assets/images/Profile/lego-programmer.jpg" alt=""> <a
-                                    href="https://alexpoma.github.io/">Alex Poma</a> | <a
-                                    href="https://github.com/AlexPoma/AlexPoma.github.io" target="_blank">Código de la
-                                    página</a>
+                                    href="https://alexpoma.github.io/" class="lang" key="Footer_Author"></a> | <a
+                                    href="https://github.com/AlexPoma/AlexPoma.github.io" target="_blank" class="lang" key="Footer_CodePage"></a>
                             </p>
                         </div>
                     </div>
@@ -1032,24 +930,15 @@
             </div>
 
             <div class="main-wrapper resume_page page_fixed" id="page_resume">
-
-                <!--  -->
-
                 <div class="container px-3 px-lg-5">
                     <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
-
                         <div class="resume-header">
-
-
                             <div class="row align-items-center">
-
                                 <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
-                                    <!-- <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i> -->
                                     <a target="_blank" id="resume-button_href"><i class='bx bx-download generate-pdf'
                                             id="resume-button"></i></a>
 
                                     <h2 class="resume-name mb-0 text-uppercase">Alex Poma</h2>
-
                                     <div class="resume-tagline mb-3 mb-md-0">Senior Software Engineer</div>
                                 </div>
                                 <!--//resume-title-->
@@ -1103,7 +992,6 @@
                                                 <div
                                                     class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
                                                     Google | 2019 - Present</div>
-
                                             </div>
                                             <div class="item-content">
                                                 <p>Role description goes here ipsum dolor sit amet, consectetuer
@@ -1210,10 +1098,8 @@
                                             </div>
                                         </div>
                                         <!--//item-->
-
                                     </section>
                                     <!--//work-section-->
-
 
                                     <section class="project-section py-3">
                                         <h3 class="text-uppercase resume-section-heading mb-4">Projects</h3>
@@ -1232,7 +1118,6 @@
                                                     commodo ligula eget dolor. Aenean massa. Cum sociis natoque
                                                     penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                                                 </p>
-
 
                                             </div>
                                         </div>
@@ -1357,7 +1242,6 @@
                                         </ul>
                                     </section>
                                     <!--//certificates-section-->
-
                                 </aside>
                                 <!--//resume-aside-->
                             </div>
@@ -1390,16 +1274,9 @@
                 </div>
                 <!--//container-->
 
-                <!--  -->
-
                 <div class="container">
                     <hr>
                 </div>
-
-                <!-- <footer class="footer text-center py-4">
-                                    <small class="copyright">Template Copyright &copy; <a href="https://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
-                                </footer> -->
-                <!-- <div class="footer-basic"> -->
 
                 <footer class="footer-basic text-center py-4">
                     <div class="container">
@@ -1420,18 +1297,13 @@
                         <div>
                             <blockquote>
                                 <i>
-                                    <p class="text">&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Incidunt
-                                        blanditiis quod laudantium nobis, quibusdam, modi porro, quisquam magnam ipsum
-                                        perferendis
-                                        minus quo a minima quidem. Quibusdam repellat quidem alias commodi!&ldquo;</p>
+                                    <p class="text">&ldquo;<span class="lang" key="Footer_Quote"></span>&ldquo;</p>
                                 </i>
                             </blockquote>
                             <p class="copyright">
                                 <img src="assets/images/Profile/lego-programmer.jpg" alt=""> <a
-                                    href="https://alexpoma.github.io/">Alex Poma</a> | <a
-                                    href="https://github.com/AlexPoma/AlexPoma.github.io" target="_blank">Código de la
-                                    página</a>
+                                    href="https://alexpoma.github.io/" class="lang" key="Footer_Author"></a> | <a
+                                    href="https://github.com/AlexPoma/AlexPoma.github.io" target="_blank" class="lang" key="Footer_CodePage"></a>
                             </p>
                         </div>
                     </div>
@@ -1444,7 +1316,6 @@
                 <section class="p-3 p-lg-5">
                     <div class="container">
                         <div class="col-xl-10 col-center-block blog__slider">
-
                         </div>
                     </div>
                 </section>
@@ -1472,18 +1343,13 @@
                         <div>
                             <blockquote>
                                 <i>
-                                    <p class="text">&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Incidunt
-                                        blanditiis quod laudantium nobis, quibusdam, modi porro, quisquam magnam ipsum
-                                        perferendis
-                                        minus quo a minima quidem. Quibusdam repellat quidem alias commodi!&ldquo;</p>
+                                    <p class="text">&ldquo;<span class="lang" key="Footer_Quote"></span>&ldquo;</p>
                                 </i>
                             </blockquote>
                             <p class="copyright">
                                 <img src="assets/images/Profile/lego-programmer.jpg" alt=""> <a
-                                    href="https://alexpoma.github.io/">Alex Poma</a> | <a
-                                    href="https://github.com/AlexPoma/AlexPoma.github.io" target="_blank">Código de la
-                                    página</a>
+                                    href="https://alexpoma.github.io/" class="lang" key="Footer_Author"></a> | <a
+                                    href="https://github.com/AlexPoma/AlexPoma.github.io" target="_blank" class="lang" key="Footer_CodePage"></a>
                             </p>
                         </div>
                     </div>
@@ -1494,13 +1360,9 @@
         </div>
     </div>
 
-    <!--  -->
-
-    <!-- </div> -->
     <script src="assets/js/carousel.js"></script>
     <script src="assets/js/testimonials.js"></script>
 
 </body>
-
 
 </html>

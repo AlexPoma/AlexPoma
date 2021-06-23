@@ -3,19 +3,18 @@ const slider_testimonial = tns({
     loop: true,
     items: 3,
     responsive: {
-	    0:{
-	            items:1,
+        0: {
+            items: 1,
         },
-        768:{
-            items:2,
+        768: {
+            items: 2,
         },
         1220: {
-	        items:3,
+            items: 3,
         }
-
-	},
+    },
     slideBy: 'page',
-    nav: true,    
+    nav: true,
     autoplay: true,
     autoplayButtonOutput: false,
     mouseDrag: true,
@@ -25,5 +24,4 @@ const slider_testimonial = tns({
     mouseDrag: true,
     controls: false,
     speed: 800,
-
 });

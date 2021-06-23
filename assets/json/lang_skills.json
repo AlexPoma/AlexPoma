@@ -1,0 +1,40 @@
+{
+    "es": {
+        "Soft_Skill": "Software Skills",
+        "Soft_Skill_Desc": "I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my online resume and project portfolio.",
+        "Item_All": "Todos",
+        "Item_DataBase": "Base de Datos",
+        "Item_BigData": "Big Data",
+        "Item_DataAnaly": "Analisis de Datos",
+        "Item_Dev": "Programación",
+        "Item_Off": "Ofimatica",
+        "Item_OS": "Sistemas Operativos",
+
+        "Cod_Skill": "Codding Skills",
+
+        "Lang_Skill": "Language Skills",
+        "Lang_Skill_Desc": "I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my online resume and project portfolio.",
+        "Esp": "Español",
+        "Eng": "Ingles",
+        "Ptg": "Portugués"
+    },
+    "en": {
+        "Soft_Skill": "Software Skills",
+        "Soft_Skill_Desc": "I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my online resume and project portfolio.",
+        "Item_All": "All",
+        "Item_DataBase": "Base de Datos",
+        "Item_BigData": "Big Data",
+        "Item_DataAnaly": "Analisis de Datos",
+        "Item_Dev": "Programación",
+        "Item_Off": "Ofimatica",
+        "Item_OS": "Sistemas Operativos",
+
+        "Cod_Skill": "Codding Skills",
+
+        "Lang_Skill": "Language Skills",
+        "Lang_Skill_Desc": "I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my online resume and project portfolio.",
+        "Esp": "Spanish",
+        "Eng": "English",
+        "Ptg": "Portuguese"
+    }
+}

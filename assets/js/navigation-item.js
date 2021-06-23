@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-    
+
     const url = window.location.href
     const url_item = url.substring(url.indexOf("#"))
 
     // console.log(url_item);
     // console.log(url.indexOf("#"));
-    
+
     const inClass = 'animated-section-moveFromRight animated-section-ontop';
     const outClass = 'animated-section-scaleDown';
     const sleep_time = 500
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const url = window.location.href
         const url_item = url.substring(url.indexOf("#"))
         const page_flag = $(this).data("page_flag");
-        
+
         if (url_item == "#" || url.indexOf("#") == -1) {
             $(".aboutme_page").each(function (e) {
                 $(this).addClass("page_fixed");
@@ -118,10 +118,10 @@ document.addEventListener("DOMContentLoaded", () => {
         else if (url_item == "#blog") {
             $(".blog_page").each(function (e) {
                 $(this).addClass("page_fixed");
-                
+
                 if (divclass != 'blog_page_flag') {
                     $(this).addClass(outClass);
-                    
+
                     setTimeout(function () {
                         $(".blog_page").removeClass(outClass);
                     }, sleep_time);
@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         if (page_flag == "aboutme_page_flag") {
             $(".aboutme_page").each(function (e) {
-                
+
                 $(this).removeClass("page_fixed");
 
                 if (divclassant != divclass) {
@@ -164,11 +164,11 @@ document.addEventListener("DOMContentLoaded", () => {
         else if (page_flag == "resume_page_flag") {
             $(".resume_page").each(function (e) {
                 $(this).removeClass("page_fixed");
-                
+
                 if (divclassant != divclass) {
                     $(this).addClass("section-active");
                     $(this).addClass(inClass);
-                    
+
                     setTimeout(function () {
                         $(".resume_page").removeClass(inClass);
                     }, sleep_time);
@@ -178,7 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
         else if (page_flag == "blog_page_flag") {
             $(".blog_page").each(function (e) {
                 $(this).removeClass("page_fixed");
-                
+
                 if (divclassant != divclass) {
                     $(this).addClass("section-active");
                     $(this).addClass(inClass);
@@ -190,5 +190,4 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
     });
-    
 });

@@ -1,0 +1,12 @@
+{
+    "es" : {
+        "Footer_Quote" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis quod laudantium nobis, quibusdam, modi porro, quisquam magnam ipsum perferendis minus quo a minima quidem. Quibusdam repellat quidem alias commodi!",
+        "Footer_Author" : "Alex Poma",
+        "Footer_CodePage" : "Código de la página"
+    },
+    "en" : {
+        "Footer_Quote" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis quod laudantium nobis, quibusdam, modi porro, quisquam magnam ipsum perferendis minus quo a minima quidem. Quibusdam repellat quidem alias commodi!",
+        "Footer_Author" : "Alex Poma",
+        "Footer_CodePage" : "Código de la página"
+    }
+}

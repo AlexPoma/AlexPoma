@@ -4,43 +4,39 @@ const slider = tns({
     loop: true,
     items: 3,
     responsive: {
-	    0:{
-	        items:1,
+        0: {
+            items: 1,
         },
-        265:{
-	        items:2,
+        265: {
+            items: 2,
         },
-        370:{
-            items:3,
+        370: {
+            items: 3,
         },
-        485:{
-            items:4,
+        485: {
+            items: 4,
         },
-        580:{
-            items:5,
+        580: {
+            items: 5,
         },
-        767:{
-            items:6,
+        767: {
+            items: 6,
         },
-        992:{
-            items:5,
+        992: {
+            items: 5,
         },
         1200: {
-	        items:6,
+            items: 6,
         },
         1350: {
-	        items:7,
+            items: 7,
         },
-        // 1400: {
-	    //     items:7,
-        // },
         1470: {
-	        items:8,
+            items: 8,
         }
-
-	},
+    },
     slideBy: 'page',
-    nav: true,    
+    nav: true,
     autoplay: true,
     autoplayButtonOutput: false,
     mouseDrag: true,
@@ -50,5 +46,4 @@ const slider = tns({
     mouseDrag: true,
     controls: false,
     speed: 800,
-
 });

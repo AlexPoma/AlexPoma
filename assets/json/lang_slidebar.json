@@ -1,0 +1,24 @@
+{
+    "es" : {
+        "Name" : "Alex Poma",
+        "Biografia" : "Hola, mi nombre es Alex Poma y soy Ingeniero de Datos. Bienvenido a mi pagina personal!",
+        "About" : "Sobre Mi",
+        "Job" : "Experiencia Laboral",
+        "Study" : "Cursos",
+        "Resume" : "Currículum",
+        "Blog" : "Blog",
+        "Contact" : "Contacto",
+        "More" : "Más"
+    },
+    "en" : {
+        "Name" : "Alex Poma",
+        "Biografia" : "Hi, my name is Alex Poma and I'm a Data Engineer. Welcome to my personal website!",
+        "About" : "About Me",
+        "Job" : "Work Experience",
+        "Study" : "Curses",
+        "Resume" : "Resume",
+        "Blog" : "Blog",
+        "Contact" : "Contact",
+        "More" : "More"
+    }
+}

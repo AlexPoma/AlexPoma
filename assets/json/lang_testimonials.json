@@ -1,0 +1,56 @@
+{
+    "es" : {
+        "Testimonials_Title" : "Testimonials",
+        
+        "1_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "1_Item_Name" : "Brandon James",
+        "1_Item_Comp" : "Project Manager, Google",
+
+        "2_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "2_Item_Name" : "Brandon James",
+        "2_Item_Comp" : "Project Manager, Google",
+
+        "3_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "3_Item_Name" : "Brandon James",
+        "3_Item_Comp" : "Project Manager, Google",
+
+        "4_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "4_Item_Name" : "Brandon James",
+        "4_Item_Comp" : "Project Manager, Google",
+
+        "5_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "5_Item_Name" : "Brandon James",
+        "5_Item_Comp" : "Project Manager, Google",
+
+        "6_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "6_Item_Name" : "Brandon James",
+        "6_Item_Comp" : "Project Manager, Google"
+    },
+    "en" : {
+        "Testimonials_Title" : "Testimonials",
+
+        "1_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "1_Item_Name" : "Brandon James",
+        "1_Item_Comp" : "Project Manager, Google",
+
+        "2_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "2_Item_Name" : "Brandon James",
+        "2_Item_Comp" : "Project Manager, Google",
+
+        "3_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "3_Item_Name" : "Brandon James",
+        "3_Item_Comp" : "Project Manager, Google",
+
+        "4_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "4_Item_Name" : "Brandon James",
+        "4_Item_Comp" : "Project Manager, Google",
+
+        "5_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "5_Item_Name" : "Brandon James",
+        "5_Item_Comp" : "Project Manager, Google",
+
+        "6_Item_Desc" : "Simon is a brilliant software engineer! Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "6_Item_Name" : "Brandon James",
+        "6_Item_Comp" : "Project Manager, Google"
+    }
+}
