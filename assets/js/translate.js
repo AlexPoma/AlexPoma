@@ -92,3 +92,22 @@ $.getJSON('assets/json/lang_footer.json', function(json){
         }); //Cierra Each
     }); //Cierre Click
 }); //Cierre JSon
+
+/***   WORK EXPERIENCE   ***/
+$.getJSON('assets/json/lang_work_experience.json', function(json){
+    if(!localStorage.getItem("lang_strg")){
+        localStorage.setItem("lang_strg","es");
+    }
+    document.getElementById("languagemode").checked = (localStorage.getItem("lang_strg")=="en")?true:false;
+    let def = localStorage.getItem("lang_strg");
+    $('.lang').each(function(index,value){
+        $(this).text(json[def][$(this).attr('key')]);
+    }); //Cierra Each
+    $('.translate').click(function(){
+        let lang = (document.getElementById("languagemode").checked == true)?"en":"es";
+        localStorage.setItem("lang_strg",lang)
+        $('.lang').each(function(index,value){
+            $(this).text(json[lang][$(this).attr('key')]);
+        }); //Cierra Each
+    }); //Cierre Click
+}); //Cierre JSon

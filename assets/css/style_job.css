@@ -119,6 +119,10 @@
     float: right;
 }
 
+.cd-timeline-content .emp_name .CMAC_Tacna {
+    width: 65px;
+}
+
 .cd-timeline-content .emp_name h2 {
     padding-left: 5px;
 }
@@ -136,15 +140,35 @@
 }
 
 .cd-timeline-content .timeline-content-info .timeline-content-info-title, .cd-timeline-content .timeline-content-info .timeline-content-info-date {
-    width: calc(50% - 2px);
-    display: inline-block;
+    /* width: calc(50% - 2px);
+    display: inline-block; */
+    /*No Borrar*/
+    display: block;
+    width: 100%;
 }
+
+/* .timeline-content-info{
+    display: flex;
+    align-items: center;
+} */
 
 @media (max-width: 500px) {
     .cd-timeline-content .timeline-content-info .timeline-content-info-title, .cd-timeline-content .timeline-content-info .timeline-content-info-date {
         display: block;
         width: 100%;
     }
+    .timeline-content-info {
+        display: block;
+    }
+}
+
+.content-experience {
+    font-size: 12px;
+    /* text-align: justify; */
+    /* text-justify: inter-word; */
+    list-style: none;
+    padding-left: 0.5em;
+    margin-bottom: 5px;
 }
 
 .cd-timeline-content .content-skills {
@@ -154,6 +178,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* position: relative; */
 }
 
 .cd-timeline-content .content-skills li {
@@ -189,7 +214,8 @@
 
 .cd-timeline-content p {
     margin: 1em 0;
-    line-height: 1.6;
+    margin-bottom: 5px;
+    /* line-height: 1.6; */
 }
 
 .cd-timeline-content::before {
@@ -262,4 +288,32 @@
         right: 122%;
         text-align: right;
     }
+}
+
+.read_more_div {
+    /* border: 1px solid #828c92; */
+    text-align: right;
+}
+
+.read_more_div p {
+    margin: 0px;
+    margin-bottom: 2px;
+    font-size: 11px;
+    display: inline-block;
+    position: relative;
+    padding: 0.2rem 0.6rem;
+    border-radius: 3px 3px 3px 3px;
+    transition: all 0.5s;
+    border-right: 1px solid #828c92;
+    border-bottom: 1px solid #828c92;
+}
+
+.read_more_div p:hover {
+    border-left: 1px solid #828c92;
+    border-top: 1px solid #828c92;
+    cursor: pointer;
+}
+
+#content_read_more {
+    display: none;
 }
