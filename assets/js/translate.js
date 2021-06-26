@@ -108,6 +108,17 @@ $.getJSON('assets/json/lang_work_experience.json', function(json){
         localStorage.setItem("lang_strg",lang)
         $('.lang').each(function(index,value){
             $(this).text(json[lang][$(this).attr('key')]);
+
+            let elem = $("#toggle_read_more").text();
+            if ($('#content_read_more').css('display') == 'block') {
+                if (elem == "Read More") {
+                    $("#toggle_read_more").text("Read Less");
+                }
+                if (elem == "Leer Más") {
+                    $("#toggle_read_more").text("Leer Menos");
+                }
+            }
+
         }); //Cierra Each
     }); //Cierre Click
 }); //Cierre JSon

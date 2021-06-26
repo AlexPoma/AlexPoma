@@ -228,8 +228,7 @@ body.dark-mode .resume-aside {
 /* Start JOB */
 
 body.dark-mode .cd-container {
-    background: /*#151e29*/
-    rgb(25, 35, 47) !important;
+    background: rgb(25, 35, 47) !important;
 }
 
 body.dark-mode #cd-timeline::before {
@@ -241,7 +240,9 @@ body.dark-mode .cd-timeline-img {
 }
 
 body.dark-mode .cd-timeline-img {
-    background: var(--special-dark-colour_l);
+    /* background: var(--special-dark-colour_l); */
+    background: rgb(25, 35, 47);
+    /* background: #212d3c; */
 }
 
 body.dark-mode .cd-timeline-content {
