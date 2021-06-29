@@ -1,0 +1,64 @@
+{
+    "es" : {
+        "CV_WE_work_exp" : "Experiencia de Trabajo",
+
+        "CV_WE_01_job_name" : "Ingeniero de Software Senior",
+        "CV_WE_01_emp_date" : "Google | 2019 - Present",
+        "CV_WE_01_desc" : "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+        "CV_WE_01_li_01" : "Lorem ipsum dolor sit amet, consectetuer.",
+        "CV_WE_01_li_02" : "Aenean commodo ligula eget dolor.",
+        "CV_WE_01_li_03" : "Etiam ultricies nisi vel augue.",
+
+        "CV_WE_02_job_name" : "Ingeniero de Software Senior",
+        "CV_WE_02_emp_date" : "Google | 2019 - 2020",
+        "CV_WE_02_desc" : "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+        "CV_WE_02_li_01" : "Lorem ipsum dolor sit amet, consectetuer.",
+        "CV_WE_02_li_02" : "Aenean commodo ligula eget dolor.",
+        "CV_WE_02_li_03" : "Etiam ultricies nisi vel augue.",
+
+        "CV_WE_03_job_name" : "Ingeniero de Software Senior",
+        "CV_WE_03_emp_date" : "Google | 2019 - Present",
+        "CV_WE_03_desc" : "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+        "CV_WE_03_li_01" : "Lorem ipsum dolor sit amet, consectetuer.",
+        "CV_WE_03_li_02" : "Aenean commodo ligula eget dolor.",
+        "CV_WE_03_li_03" : "Etiam ultricies nisi vel augue.",
+
+        "CV_WE_04_job_name" : "Ingeniero de Software Senior",
+        "CV_WE_04_emp_date" : "Google | 2019 - Present",
+        "CV_WE_04_desc" : "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+        "CV_WE_04_li_01" : "Lorem ipsum dolor sit amet, consectetuer.",
+        "CV_WE_04_li_02" : "Aenean commodo ligula eget dolor.",
+        "CV_WE_04_li_03" : "Etiam ultricies nisi vel augue."
+    },
+    "en" : {
+        "CV_WE_work_exp" : "Work Experiences",
+
+        "CV_WE_01_job_name" : "Senior Software Engineer",
+        "CV_WE_01_emp_date" : "Google | 2019 - Present",
+        "CV_WE_01_desc" : "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+        "CV_WE_01_li_01" : "Lorem ipsum dolor sit amet, consectetuer.",
+        "CV_WE_01_li_02" : "Aenean commodo ligula eget dolor.",
+        "CV_WE_01_li_03" : "Etiam ultricies nisi vel augue.",
+
+        "CV_WE_02_job_name" : "Senior Software Engineer",
+        "CV_WE_02_emp_date" : "Google | 2019 - Present",
+        "CV_WE_02_desc" : "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+        "CV_WE_02_li_01" : "Lorem ipsum dolor sit amet, consectetuer.",
+        "CV_WE_02_li_02" : "Aenean commodo ligula eget dolor.",
+        "CV_WE_02_li_03" : "Etiam ultricies nisi vel augue.",
+
+        "CV_WE_03_job_name" : "Senior Software Engineer",
+        "CV_WE_03_emp_date" : "Google | 2019 - Present",
+        "CV_WE_03_desc" : "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+        "CV_WE_03_li_01" : "Lorem ipsum dolor sit amet, consectetuer.",
+        "CV_WE_03_li_02" : "Aenean commodo ligula eget dolor.",
+        "CV_WE_03_li_03" : "Etiam ultricies nisi vel augue.",
+
+        "CV_WE_04_job_name" : "Senior Software Engineer",
+        "CV_WE_04_emp_date" : "Google | 2019 - Present",
+        "CV_WE_04_desc" : "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.",
+        "CV_WE_04_li_01" : "Lorem ipsum dolor sit amet, consectetuer.",
+        "CV_WE_04_li_02" : "Aenean commodo ligula eget dolor.",
+        "CV_WE_04_li_03" : "Etiam ultricies nisi vel augue."
+    }
+}

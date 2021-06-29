@@ -1,0 +1,92 @@
+{
+    "es" : {
+        "CV_Det_skill" : "Skills",
+        "CV_Det_technical" : "Technical",
+        "CV_Det_tech_01" : "JavaScript/Angular/React/Vue",
+        "CV_Det_tech_02" : "Python/Ruby/PHP",
+        "CV_Det_tech_03" : "Node.js/ASP.NET",
+        "CV_Det_tech_04" : "PostgreSQL/MySQL",
+        "CV_Det_tech_05" : "Object-oriented design",
+        "CV_Det_tech_06" : "Design and implement database structures",
+        "CV_Det_tech_07" : "Lead and deliver complex software systems",
+
+        "CV_Det_professional" : "Professional",
+        "CV_Det_prof_01" : "Effective communication",
+        "CV_Det_prof_02" : "Team player",
+        "CV_Det_prof_03" : "Strong problem solver",
+        "CV_Det_prof_04" : "Good time management",
+
+        "CV_Det_education" : "Education",
+        "CV_Det_edu_degree_01" : "MSc in Computer Science",
+        "CV_Det_edu_degree_01_Uni" : "University College London",
+        "CV_Det_edu_degree_01_UniDate" : "2010 - 2011",
+        "CV_Det_edu_degree_02" : "BSc Maths and Physics",
+        "CV_Det_edu_degree_02_Uni" : "Imperial College London",
+        "CV_Det_edu_degree_02_UniDate" : "2007 - 2010",
+        
+        "CV_Det_awards" : "Awards",
+        "CV_Det_awards_name_01" : "Award Lorem Ipsum",
+        "CV_Det_awards_place_01" : "Microsoft lorem ipsum (2019)",
+        "CV_Det_awards_name_02" : "Award Donec Sodales",
+        "CV_Det_awards_place_02" : "Oracle Aenean (2017)",
+
+        "CV_Det_languages" : "Languages",
+        "CV_Det_lang_01" : "Spanish",
+        "CV_Det_lang_01_det" : "(Native)",
+        "CV_Det_lang_02" : "English",
+        "CV_Det_lang_02_det" : "(Professional)",
+        "CV_Det_lang_03" : "Portugués",
+        "CV_Det_lang_03_det" : "(Professional)",
+
+        "CV_Det_interest" : "Interests",
+        "CV_Det_interest_01" : "Climbing",
+        "CV_Det_interest_02" : "Snowboarding",
+        "CV_Det_interest_03" : "Photography",
+        "CV_Det_interest_04" : "Travelling"
+    },
+    "en" : {
+        "CV_Det_skill" : "Skills",
+        "CV_Det_technical" : "Technical",
+        "CV_Det_tech_01" : "JavaScript/Angular/React/Vue",
+        "CV_Det_tech_02" : "Python/Ruby/PHP",
+        "CV_Det_tech_03" : "Node.js/ASP.NET",
+        "CV_Det_tech_04" : "PostgreSQL/MySQL",
+        "CV_Det_tech_05" : "Object-oriented design",
+        "CV_Det_tech_06" : "Design and implement database structures",
+        "CV_Det_tech_07" : "Lead and deliver complex software systems",
+
+        "CV_Det_professional" : "Professional",
+        "CV_Det_prof_01" : "Effective communication",
+        "CV_Det_prof_02" : "Team player",
+        "CV_Det_prof_03" : "Strong problem solver",
+        "CV_Det_prof_04" : "Good time management",
+
+        "CV_Det_education" : "Education",
+        "CV_Det_edu_degree_01" : "MSc in Computer Science",
+        "CV_Det_edu_degree_01_Uni" : "University College London",
+        "CV_Det_edu_degree_01_UniDate" : "2010 - 2011",
+        "CV_Det_edu_degree_02" : "BSc Maths and Physics",
+        "CV_Det_edu_degree_02_Uni" : "Imperial College London",
+        "CV_Det_edu_degree_02_UniDate" : "2007 - 2010",
+        
+        "CV_Det_awards" : "Awards",
+        "CV_Det_awards_name_01" : "Award Lorem Ipsum",
+        "CV_Det_awards_place_01" : "Microsoft lorem ipsum (2019)",
+        "CV_Det_awards_name_02" : "Award Donec Sodales",
+        "CV_Det_awards_place_02" : "Oracle Aenean (2017)",
+
+        "CV_Det_languages" : "Languages",
+        "CV_Det_lang_01" : "Spanish",
+        "CV_Det_lang_01_det" : "(Native)",
+        "CV_Det_lang_02" : "English",
+        "CV_Det_lang_02_det" : "(Professional)",
+        "CV_Det_lang_03" : "Portugués",
+        "CV_Det_lang_03_det" : "(Professional)",
+
+        "CV_Det_interest" : "Interests",
+        "CV_Det_interest_01" : "Climbing",
+        "CV_Det_interest_02" : "Snowboarding",
+        "CV_Det_interest_03" : "Photography",
+        "CV_Det_interest_04" : "Travelling"
+    }
+}

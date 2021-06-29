@@ -1,0 +1,24 @@
+{
+    "es" : {
+        "CV_Research" : "Projects",
+
+        "CV_Research_name_01" : "Project Lorem Ipsum",
+        "CV_Research_repo_01" : "Open Source",
+        "CV_Research_desc_01" : "You can use this section for your side projects. You can as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+
+        "CV_Research_name_02" : "Project Sed Fringilla",
+        "CV_Research_repo_02" : "Open Source",
+        "CV_Research_desc_02" : "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+    },
+    "en" : {
+        "CV_Research" : "Projects",
+
+        "CV_Research_name_01" : "Project Lorem Ipsum",
+        "CV_Research_repo_01" : "Open Source",
+        "CV_Research_desc_01" : "You can use this section for your side projects. You can as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+
+        "CV_Research_name_02" : "Project Sed Fringilla",
+        "CV_Research_repo_02" : "Open Source",
+        "CV_Research_desc_02" : "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+    }
+}
