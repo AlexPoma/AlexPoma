@@ -1,5 +1,7 @@
 {
     "es" : {
+        "we_title": "AlexPoma",
+
         "we_read_more" : "Leer Más",
 
         "01_we_EmpName" : "CMAC Tacna",
@@ -45,6 +47,8 @@
         "02_we_ListSkills_7" : "jQuery"
     },
     "en" : {
+        "we_title": "AlexPoma",
+        
         "we_read_more" : "Read More",
 
         "01_we_EmpName" : "CMAC Tacna",

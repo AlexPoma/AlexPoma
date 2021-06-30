@@ -926,3 +926,59 @@ a.resume-link:hover {
     display: block;
     margin: 0 auto;
 }
+
+/*Button Blog*/
+
+.btn_blog_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_blog_container {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+}
+
+.btn_blog_container .btn_blog {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid var(--font-header-color-rgv);
+    outline: none;
+    transition: 1s ease-in-out;
+}
+
+.btn_blog_container .btn_blog svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+}
+
+.btn_blog_container .btn_blog:hover {
+    transition: 1s ease-in-out;
+    background: var(--font-header-color-rgv);
+}
+
+.btn_blog_container .btn_blog:hover svg {
+    stroke-dashoffset: -480;
+}
+
+.btn_blog_container .btn_blog span {
+    color: var(--font-header-color-rgv);
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.btn_blog_container .btn_blog:hover span {
+    color: white;
+}
+
+/*End Button Blog*/

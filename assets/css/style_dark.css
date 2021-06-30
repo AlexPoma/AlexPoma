@@ -308,3 +308,7 @@ body.dark-mode .btn-outline-custom:hover, body.dark-mode .btn-outline-custom:act
 body.dark-mode .post-meta {
     color: rgba(255, 255, 255, 0.7);
 }
+
+body.dark-mode .btn_blog_container .btn_blog span {
+    color: var(--header-background-color);
+}

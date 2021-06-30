@@ -1,0 +1,14 @@
+{
+    "es" : {
+        "blog_title" : "AlexPoma",
+
+        "blog_read_more" : "Leer Más",
+        "blog_past_posts" : "Publicaciónes Pasadas"
+    },
+    "en" : {
+        "blog_title" : "AlexPoma",
+
+        "blog_read_more" : "Read More",
+        "blog_past_posts" : "Past Posts"
+    }
+}

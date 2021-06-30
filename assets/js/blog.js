@@ -58,7 +58,7 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ale
                     <p>${item.content.split("</p>")[0].split("<p>")[1]}</p>
                 </div>
 
-                <div><a href="${item.link}" target="_blank" class="btn btn-outline-custom">Read More <i class="fas fa-angle-double-right"></i></a></div>
+                <div><a href="${item.link}" target="_blank" class="btn btn-outline-custom"><span class="lang" key="blog_read_more">Read More</span><i class="fas fa-angle-double-right"></i></a></div>
 
             </article>`
 
