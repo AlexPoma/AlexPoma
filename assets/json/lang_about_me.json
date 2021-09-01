@@ -2,13 +2,15 @@
     "es" : {
         "Name_AboutMe" : "Alex Poma",
         "Career" : "Ingeniero de Datos",
-        "AboutMe" : "Apasionado por la Inteligencia de Negocios, Análisis de Datos, Aprendizaje Automático, e Inteligencia Artificial, altamente responsable, creativo, con iniciativa y puntualidad, asumo con responsabilidad los retos y metas que la organización me plantee; adaptabilidad al cambio, facilidad para trabajar en equipo, en condiciones bajo presión, así como para resolver problemas eficientemente y lograr las metas de productividad trazadas por la empresa y mi grupo de trabajo.",
+        "AboutMe" : "Soy un apasionado por los datos, altamente responsable, creativo, con iniciativa y puntualidad, asumo con responsabilidad los retos y metas que la organización me plantee; adaptabilidad al cambio, facilidad para trabajar en equipo, así como para resolver problemas eficientemente y lograr las metas de productividad trazadas por la empresa y mi grupo de trabajo.",
+        "AboutMe_Aux" : "Soy un apasionado por la Inteligencia de Negocios, Análisis de Datos, Aprendizaje Automático, e Inteligencia Artificial, altamente responsable, creativo, con iniciativa y puntualidad, asumo con responsabilidad los retos y metas que la organización me plantee; adaptabilidad al cambio, facilidad para trabajar en equipo, en condiciones bajo presión, así como para resolver problemas eficientemente y lograr las metas de productividad trazadas por la empresa y mi grupo de trabajo.",
         "ViewResume" : "Ver Currículum"
     },
     "en" : {
         "Name_AboutMe" : "Alex Poma",
         "Career" : "Data Engineer",
-        "AboutMe" : "Passionate about Business Intelligence, Cloud Computing, Machine Learning, and Artificial Intelligence, highly responsible, creative, with initiative and punctuality, I assume with responsibility the challenges and goals that the organization sets for me; adaptability to change, ease of working as a team, in conditions under pressure, so to solve problems efficiently and achieve the productivity goals set by the company and my work group.",
+        "AboutMe" : "I'm a passionate about data, highly responsible, creative, with initiative and punctuality, I assume with responsibility the challenges and goals that the organization sets for me; adaptability to change, ease of working as a team, so to solve problems efficiently and achieve the productivity goals set by the company and my work group.",
+        "AboutMe_Aux" : "I'm a passionate about Business Intelligence, Cloud Computing, Machine Learning, and Artificial Intelligence, highly responsible, creative, with initiative and punctuality, I assume with responsibility the challenges and goals that the organization sets for me; adaptability to change, ease of working as a team, in conditions under pressure, so to solve problems efficiently and achieve the productivity goals set by the company and my work group.",
         "ViewResume" : "View Resume"
     }
 }

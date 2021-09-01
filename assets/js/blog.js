@@ -3,7 +3,7 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@ale
     .then((data) => {
 
         const res = data.items
-        // console.log(res);
+        console.log(res);
         const posts = res.filter(item => item.categories.length > 0)
         // console.log(posts);
 

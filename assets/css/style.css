@@ -928,7 +928,6 @@ a.resume-link:hover {
 }
 
 /*Button Blog*/
-
 .btn_blog_div {
     display: flex;
     justify-content: center;
@@ -948,27 +947,12 @@ a.resume-link:hover {
     background: transparent;
     border: 1px solid var(--font-header-color-rgv);
     outline: none;
-    transition: 1s ease-in-out;
-}
-
-.btn_blog_container .btn_blog svg {
-    position: absolute;
-    left: 0;
-    top: 0;
-    fill: none;
-    stroke: #fff;
-    stroke-dasharray: 150 480;
-    stroke-dashoffset: 150;
-    transition: 1s ease-in-out;
+    transition: 1s;
 }
 
 .btn_blog_container .btn_blog:hover {
-    transition: 1s ease-in-out;
-    background: var(--font-header-color-rgv);
-}
-
-.btn_blog_container .btn_blog:hover svg {
-    stroke-dashoffset: -480;
+    transition: 1s;
+    background: var(--font-header-color-rgva);
 }
 
 .btn_blog_container .btn_blog span {
@@ -978,7 +962,7 @@ a.resume-link:hover {
 }
 
 .btn_blog_container .btn_blog:hover span {
+    transition: 1s;
     color: white;
 }
-
 /*End Button Blog*/
