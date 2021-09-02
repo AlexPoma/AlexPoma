@@ -190,4 +190,50 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
     });
+
+    $(".about-to-resume").click(function (e) {
+
+        const divclassant = $(".nav_list_item .aboutme_page_item").parent().find('.active').data('page_flag');
+        $(".nav_list_item .aboutme_page_item").parent().find('li').removeClass("active");
+        $(".nav_list_item .resume_page_item").addClass("active");
+        const divclass = $(".nav_list_item .resume_page_item").parent().find('.active').data('page_flag');
+
+        $('html, body').animate({ scrollTop: 0 }, 'fast');
+
+        const url = window.location.href
+        const url_item = url.substring(url.indexOf("#"))
+        const page_flag = $(this).data("page_flag");
+
+        if (url_item == "#" || url.indexOf("#") == -1) {
+            $(".aboutme_page").each(function (e) {
+                $(this).addClass("page_fixed");
+
+                if (divclass != 'aboutme_page_flag') {
+                    $(this).addClass(outClass);
+
+                    setTimeout(function () {
+                        $(".aboutme_page").removeClass(outClass);
+                    }, sleep_time);
+
+                    setTimeout(function () {
+                        $(".aboutme_page").removeClass("section-active");
+                    }, sleep_time);
+                }
+            });
+        }
+        if (page_flag == "resume_page_flag") {
+            $(".resume_page").each(function (e) {
+                $(this).removeClass("page_fixed");
+
+                if (divclassant != divclass) {
+                    $(this).addClass("section-active");
+                    $(this).addClass(inClass);
+
+                    setTimeout(function () {
+                        $(".resume_page").removeClass(inClass);
+                    }, sleep_time);
+                }
+            });
+        }
+    });
 });
