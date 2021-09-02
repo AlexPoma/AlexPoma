@@ -118,7 +118,11 @@ body.dark-mode .header .navbar-dark .navbar-toggler {
     background-color: #111821;
 }
 
-body.dark-mode .project-cards .card-img-holder img {
+/*body.dark-mode .project-cards .card-img-holder img {
+    filter: drop-shadow(0px 0px 0 #fff)
+}*/
+
+body.dark-mode .card-img-holder img {
     filter: drop-shadow(0px 0px 0 #fff)
 }
 
