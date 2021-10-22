@@ -158,7 +158,7 @@
     }
 }
 
-.content-experience {
+.cd-timeline-content .content-experience {
     font-size: 12px;
     /* text-align: justify; */
     /* text-justify: inter-word; */
@@ -231,7 +231,7 @@
         font-size: 1.25rem;
     }
     .cd-timeline-content p {
-        font-size: 14px;
+        font-size: 12px;
     }
     .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
         font-size: 14px;
@@ -315,7 +315,7 @@
 }
 
 /*Work Image*/
-.cd-timeline-content .emp_name .CMAC_Tacna {
+.cd-timeline-content .emp_name .Company_logo {
     width: 65px;
 }
 /*Work Image*/
