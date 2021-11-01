@@ -2,17 +2,17 @@
     "es": {
         "Soft_Skill": "Conocimientos de Software",
         "Soft_Skill_Desc": "",
-        "Item_All": "Todos",
+        "Item_All": "Principales",
         "Item_DataBase": "Base de Datos",
         "Item_BigData": "Big Data",
-        "Item_DataAnaly": "Analisis de Datos",
+        "Item_DataAnaly": "Inteligencia de Negocios",
         "Item_Dev": "Programación",
         "Item_Off": "Ofimatica",
         "Item_OS": "Sistemas Operativos",
 
         "Cod_Skill": "Codding Skills",
 
-        "Lang_Skill": "Language Skills",
+        "Lang_Skill": "Idiomas",
         "Lang_Skill_Desc": "",
         "Esp": "Español",
         "Eng": "Ingles",
@@ -21,11 +21,11 @@
     "en": {
         "Soft_Skill": "Software Skills",
         "Soft_Skill_Desc": "",
-        "Item_All": "All",
-        "Item_DataBase": "Base de Datos",
+        "Item_All": "Main",
+        "Item_DataBase": "Data Bases",
         "Item_BigData": "Big Data",
-        "Item_DataAnaly": "Analisis de Datos",
-        "Item_Dev": "Programación",
+        "Item_DataAnaly": "Business Intelligence",
+        "Item_Dev": "Programming",
         "Item_Off": "Ofimatica",
         "Item_OS": "Sistemas Operativos",
 
