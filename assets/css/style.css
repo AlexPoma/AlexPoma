@@ -798,6 +798,10 @@ a.resume-link:hover {
     color: var(--font-header-color-rgva);
 }
 
+.generate-pdf_about {
+    font-size: 1.1rem;
+}
+
 .generate-pdf {
     display: none;
     position: absolute;

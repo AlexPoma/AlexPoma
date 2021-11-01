@@ -1,12 +1,12 @@
 {
     "es" : {
-        "Footer_Quote" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis quod laudantium nobis, quibusdam, modi porro, quisquam magnam ipsum perferendis minus quo a minima quidem. Quibusdam repellat quidem alias commodi!",
+        "Footer_Quote" : "Nuestra recompensa se encuentra en el esfuerzo y no en el resultado. Un esfuerzo total es una victoria completa - Mahatma Gandhi",
         "Footer_Author" : "Alex Poma",
         "Footer_CodePage" : "Código de la página"
     },
     "en" : {
-        "Footer_Quote" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt blanditiis quod laudantium nobis, quibusdam, modi porro, quisquam magnam ipsum perferendis minus quo a minima quidem. Quibusdam repellat quidem alias commodi!",
+        "Footer_Quote" : "Satisfaction lies in the effort, not in the attainment, full effort is full victory - Mahatma Gandhi",
         "Footer_Author" : "Alex Poma",
-        "Footer_CodePage" : "Código de la página"
+        "Footer_CodePage" : "Page code"
     }
 }

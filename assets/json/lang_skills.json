@@ -1,7 +1,7 @@
 {
     "es": {
         "Soft_Skill": "Conocimientos de Software",
-        "Soft_Skill_Desc": "Tengo más de 10 años de experiencia en la creación de software para clientes de todo el mundo. A continuación se muestra una descripción general rápida de mis principales conjuntos de habilidades técnicas y tecnologías que utilizo. ¿Quieres saber más sobre mi experiencia? Consulte mi currículum vitae en línea y mi cartera de proyectos.",
+        "Soft_Skill_Desc": "",
         "Item_All": "Todos",
         "Item_DataBase": "Base de Datos",
         "Item_BigData": "Big Data",
@@ -13,14 +13,14 @@
         "Cod_Skill": "Codding Skills",
 
         "Lang_Skill": "Language Skills",
-        "Lang_Skill_Desc": "I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my online resume and project portfolio.",
+        "Lang_Skill_Desc": "",
         "Esp": "Español",
         "Eng": "Ingles",
         "Ptg": "Portugués"
     },
     "en": {
         "Soft_Skill": "Software Skills",
-        "Soft_Skill_Desc": "I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my online resume and project portfolio.",
+        "Soft_Skill_Desc": "",
         "Item_All": "All",
         "Item_DataBase": "Base de Datos",
         "Item_BigData": "Big Data",
@@ -32,7 +32,7 @@
         "Cod_Skill": "Codding Skills",
 
         "Lang_Skill": "Language Skills",
-        "Lang_Skill_Desc": "I have more than 10 years' experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my online resume and project portfolio.",
+        "Lang_Skill_Desc": "",
         "Esp": "Spanish",
         "Eng": "English",
         "Ptg": "Portuguese"

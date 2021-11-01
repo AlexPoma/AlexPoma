@@ -1,24 +1,16 @@
 {
     "es" : {
-        "CV_Research" : "Projects",
+        "CV_Research" : "Investigación",
 
-        "CV_Research_name_01" : "Project Lorem Ipsum",
-        "CV_Research_repo_01" : "Open Source",
-        "CV_Research_desc_01" : "You can use this section for your side projects. You can as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-
-        "CV_Research_name_02" : "Project Sed Fringilla",
-        "CV_Research_repo_02" : "Open Source",
-        "CV_Research_desc_02" : "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        "CV_Research_name_01" : "Tesis",
+        "CV_Research_repo_01" : "",
+        "CV_Research_desc_01" : "Análisis del Comportamiento de los Tweets, de la Participación Electoral de los Principales Candidatos a la Presidencia del Perú Utilizando Minería de Textos en el Año 2016: Se realizó minería de textos, clasificando los tweets recibidos por los candidatos a la presidencia del Perú, mediante el método de Naïve Bayes y Cross Validation, para poder clasificarlos como positivos y negativos, se realizó un análisis descriptivo de los resultados, mostrando el nivel de aceptación de los candidatos en las redes sociales."
     },
     "en" : {
-        "CV_Research" : "Projects",
+        "CV_Research" : "Research",
 
-        "CV_Research_name_01" : "Project Lorem Ipsum",
-        "CV_Research_repo_01" : "Open Source",
-        "CV_Research_desc_01" : "You can use this section for your side projects. You can as well. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-
-        "CV_Research_name_02" : "Project Sed Fringilla",
-        "CV_Research_repo_02" : "Open Source",
-        "CV_Research_desc_02" : "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        "CV_Research_name_01" : "Thesis",
+        "CV_Research_repo_01" : "",
+        "CV_Research_desc_01" : "Analysis of the Behavior of Tweets, of the Electoral Participation of the Main Candidates for the Presidency of Peru Using Text Mining in 2016: Text mining was carried out, classifying the tweets received by the candidates for the presidency of Peru, through the Naïve Bayes and Cross Validation method, in order to classify them as positive and negative, a descriptive analysis of the results was carried out, showing the level of acceptance of the candidates in social networks."
     }
 }

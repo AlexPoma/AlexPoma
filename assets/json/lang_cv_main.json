@@ -6,7 +6,7 @@
         "CV_Main_email" : "alex.poma.iis@gmail.com",
         "CV_Main_web" : "alexpoma.github.io",
         "CV_Main_country" : "Perú",
-        "CV_Main_summary" : "Resume tu carrera Aquí. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+        "CV_Main_summary" : "Soy un apasionado de los datos, actualmente me encuentro trabajando en TCS como Ingeniero de Datos para un proyecto de RIMAC Seguros. Me considero un autodidacta, al que le encanta la tecnología, y la automatización de procesos, tengo varios años trabajando con datos, además de tener facilidad para trabajar en equipo, así como para resolver problemas eficientemente y lograr las metas de productividad trazadas por la empresa y mi grupo de trabajo."
     },
     "en" : {
         "CV_Main_resume_name" : "Alex Poma",
@@ -15,6 +15,6 @@
         "CV_Main_email" : "alex.poma.iis@gmail.com",
         "CV_Main_web" : "alexpoma.github.io",
         "CV_Main_country" : "Perú",
-        "CV_Main_summary" : "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+        "CV_Main_summary" : "I'm passionate about data, I'm currently working at TCS as a Data Engineer for a RIMAC Seguros project. I consider myself a self-taught person, who loves technology and process automation, I have several years working with data, ease of working as a team, efficiently solve problems and achieve the productivity goals set by the company and my work group."
     }
 }
