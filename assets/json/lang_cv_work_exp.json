@@ -37,7 +37,7 @@
         "CV_WE_03_li_01" : "Se crearon diferentes tipos de gráficos estadísticos usando R y Python, siguiendo las especificaciones de los investigadores.",
         "CV_WE_03_li_02" : "Automatice diferentes procesos manuales para que los investigadores se centren en el análisis de los datos.",
         "CV_WE_03_li_03" : "Se generaron interfaces en Shiny con gráficos interactivos.",
-        "CV_WE_03_li_04" : "He implementado diferentes Jupyter Notebooks y R Markdown para documentar los códigos que se implementaban.",
+        "CV_WE_03_li_04" : "He creado Notebooks en Jupyter y R Markdown.",
         "CV_WE_03_li_05" : "Se desarrollo un modelo de Redes Neuronales usando TensorFlow para la predicción de la Evapotranspiración.",
         "CV_WE_Skills_03" : "Python | R | Shiny | Jupyter | Neural Network | Machine Learning"
     },
@@ -79,7 +79,7 @@
         "CV_WE_03_li_01" : "Multiple types of statistical graphs were created using R and Python, using the researchers specifications.",
         "CV_WE_03_li_02" : "Automate multiple manual processes so allow researchers focus on data analysis.",
         "CV_WE_03_li_03" : "Shiny UI with interactive graphics were generated.",
-        "CV_WE_03_li_04" : "I have implemented different Jupyter Notebooks and R Markdown to document the codes that were implemented.",
+        "CV_WE_03_li_04" : "I have created Notebooks in Jupyter and R Markdown.",
         "CV_WE_03_li_05" : "A Neural Networks model was developed using TensorFlow for Evapotranspiration prediction.",
         "CV_WE_Skills_03" : "Python | R | Shiny | Jupyter | Neural Network | Machine Learning"
     }
