@@ -537,13 +537,13 @@ ul.main_skills li:before {
 }
 
 .eng .circle-big .progress {
-    stroke-dashoffset: 109.965;
+    stroke-dashoffset: 153.9384; /*109.965;*/
     /*dasharray - percent/100 * dasharray*/
     animation: big_eng 1.5s ease-in-out;
 }
 
 .br .circle-big .progress {
-    stroke-dashoffset: 65.9736;
+    stroke-dashoffset: 109.965; /*65.9736;*/
     /*dasharray - percent/100 * dasharray*/
     animation: big_br 1.5s ease-in-out;
 }
@@ -562,7 +562,7 @@ ul.main_skills li:before {
         stroke-dashoffset: 439.824;
     }
     to {
-        stroke-dashoffset: 109.965;
+        stroke-dashoffset: 153.9384; /*109.965;*/
     }
 }
 
@@ -571,7 +571,7 @@ ul.main_skills li:before {
         stroke-dashoffset: 439.824;
     }
     to {
-        stroke-dashoffset: 65.9736;
+        stroke-dashoffset: 109.965; /*65.9736;*/
     }
 }
 
@@ -970,3 +970,7 @@ a.resume-link:hover {
     color: white;
 }
 /*End Button Blog*/
+
+.testimonials-section {
+    display: none;
+}
