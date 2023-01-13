@@ -26,7 +26,8 @@
         background: #111821;
     }
     .navButton {
-        transform: translateX(85vw) translateY(20px);
+        transform: translateX(93vw) translateY(20px);
+        width: 48px;
     }
     .header .navbarnameorg {
         visibility: hidden;
@@ -102,16 +103,25 @@
     .mobile-is-hidden {
         display: none
     }
+    .navButton {
+        transform: translateX(90vw) translateY(20px);
+    }
 }
 
 @media (max-width: 575px) {
     .eng .circle-big, .br .circle-big {
         margin-top: 15px;
     }
+    .navButton {
+        transform: translateX(89vw) translateY(20px);
+    }
 }
 
 @media (max-width: 467px) {
     .resume-footer span {
         display: none;
+    }
+    .navButton {
+        transform: translateX(85vw) translateY(20px);
     }
 }
