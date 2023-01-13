@@ -1,20 +1,20 @@
 {
     "es" : {
         "CV_Main_resume_name" : "Alex Poma",
-        "CV_Main_job" : "Ingeniero de Datos",
+        "CV_Main_job" : "Data Engineer Specialist",
         "CV_Main_tel" : "+51 973119856",
         "CV_Main_email" : "alex.poma.iis@gmail.com",
         "CV_Main_web" : "alexpoma.github.io",
         "CV_Main_country" : "Perú",
-        "CV_Main_summary" : "Ser Ingeniero de Datos es una de las cosas que más me apasionan, ya que es un trabajo en el que nunca te aburres, tienes que mantenerte estudiando constantemente y siempre autosuperándote, te obliga a ser autodidacta, y a no conformarte con lo que sabes. He tenido la suerte de cooperar con maravillosos grupos de trabajo, participando en las diferentes fases del desarrollo de pipelines de datos. Tengo varios años trabajando con datos, además tengo facilidad para trabajar en equipo, así como para resolver problemas eficientemente y lograr las metas de productividad trazadas por la empresa y mi grupo de trabajo."
+        "CV_Main_summary" : "Soy un apasionado de los datos, actualmente me encuentro trabajando en Rimac Seguros como Especialista en Ingenieria de Datos. Me considero un autodidacta, al que le encanta la tecnología y la automatización de procesos, he tenido la suerte de cooperar con maravillosos equipos de trabajo, participando en las diferentes fases del desarrollo de pipelines, tengo varios años trabajando con datos, además de tener facilidad para trabajar en equipo, así como para resolver problemas eficientemente y lograr las metas de productividad trazadas por la empresa y mi equipo de trabajo."
     },
     "en" : {
         "CV_Main_resume_name" : "Alex Poma",
-        "CV_Main_job" : "Data Engineer",
+        "CV_Main_job" : "Data Engineer Specialist",
         "CV_Main_tel" : "+51 973119856",
         "CV_Main_email" : "alex.poma.iis@gmail.com",
         "CV_Main_web" : "alexpoma.github.io",
         "CV_Main_country" : "Perú",
-        "CV_Main_summary" : "Being a Data Engineer is one of the things that I am most passionate about, it is a job in which you are never bored, you have to keep studying constantly and always surpassing you, it forces you to be self-taught, and not to settle for what you know. I have been fortunate to cooperate with wonderful teamworks, participating in the different phases of the development of data pipelines. I have been working with data for several years, I also have the ability to work in a team, efficiently solve problems and achieve the productivity goals set by the company and my work group."
+        "CV_Main_summary" : "I'm passionate about data, I'm currently working at Rimac Seguros as Data Engineer Specialist. I consider myself a self-taught person, who loves technology and process automation, I have been fortunate to cooperate with wonderful teamworks, participating in the different phases of the development of pipelines. I have been working with data for several years, also have the ease to work in a team, as well as efficiently solve problems and achieve the productivity goals set by the company and my teamwork."
     }
 }

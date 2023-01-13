@@ -90,4 +90,27 @@ $(document).ready(function () {
             }
         }
     });
+
+    $(".JOB_05 #toggle_read_more").click(function () {
+        var elem = $(".JOB_05 #toggle_read_more").text();
+        let def = localStorage.getItem("lang_strg");
+        if (def == 'en') {
+            if (elem == "Read More") {
+                $(".JOB_05 #toggle_read_more").text("Read Less");
+                $(".JOB_05 #content_read_more").slideDown();
+            } else {
+                $(".JOB_05 #toggle_read_more").text("Read More");
+                $(".JOB_05 #content_read_more").slideUp();
+            }
+        }
+        if (def == 'es') {
+            if (elem == "Leer Más") {
+                $(".JOB_05 #toggle_read_more").text("Leer Menos");
+                $(".JOB_05 #content_read_more").slideDown();
+            } else {
+                $(".JOB_05 #toggle_read_more").text("Leer Más");
+                $(".JOB_05 #content_read_more").slideUp();
+            }
+        }
+    });
 });
