@@ -12,18 +12,23 @@ function touchMove(evt) {
 
 function touchEnd() {
     const nav = document.querySelector(".collapse_navbarBackground");
-    if (startingX + 100 < movingX) {
+    if ((startingX + 100 < movingX) && !((startingY + 100 < movingY) || (startingY - 100 > movingY))) {
         //console.log("rigth");
         if (window.innerWidth < 992) {
             nav.classList.add("nav--open");
         }
-    } else if (startingX - 100 > movingX) {
+    } else if ((startingX - 100 > movingX) && !((startingY + 100 < movingY) || (startingY - 100 > movingY))) {
         //console.log("left");
         if (window.innerWidth < 992) {
             nav.classList.remove("nav--open");
         }
     }
     /*
+    if (startingX + 100 < movingX) {
+        console.log("rigth");
+    } else if (startingX - 100 > movingX) {
+        console.log("left");
+    }
     if (startingY + 100 < movingY) {
         console.log('down');
     } else if (startingY - 100 > movingY) {
