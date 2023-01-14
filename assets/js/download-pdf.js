@@ -1,4 +1,4 @@
-$(document).ready(function () {
+window.addEventListener("load", function () {
 
     function set_href() {
         let var_theme = localStorage.getItem("DarkModeVar");

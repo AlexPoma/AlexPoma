@@ -1,4 +1,4 @@
-window.addEventListener("load", function () {
+$(document).ready(function () {
     /***   SLIDE BAR   ***/
     $.getJSON('assets/json/lang_slidebar.json', function(json){
         if(!localStorage.getItem("lang_strg")){
