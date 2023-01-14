@@ -17,12 +17,12 @@ function touchEnd() {
         if (window.innerWidth < 992) {
             nav.classList.add("nav--open");
         }
-    } else if ((startingX - 100 > movingX) && !((startingY + 100 < movingY) || (startingY - 100 > movingY))) {
+    } /*else if ((startingX - 100 > movingX) && !((startingY + 100 < movingY) || (startingY - 100 > movingY))) {
         //console.log("left");
         if (window.innerWidth < 992) {
             nav.classList.remove("nav--open");
         }
-    }
+    }*/
     /*
     if (startingX + 100 < movingX) {
         console.log("rigth");
